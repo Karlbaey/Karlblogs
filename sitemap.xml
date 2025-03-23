@@ -11,15 +11,6 @@
   </url>
   
   <url>
-    <loc>https://karlbaey.top/articles/New-commenting-system-and-other-updates/</loc>
-    
-    <lastmod>2025-03-23</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://karlbaey.top/articles/Lieu-Evanoui/</loc>
     
     <lastmod>2025-03-23</lastmod>
@@ -29,7 +20,7 @@
   </url>
   
   <url>
-    <loc>https://karlbaey.top/articles/commenting-system-launch/</loc>
+    <loc>https://karlbaey.top/about/</loc>
     
     <lastmod>2025-03-23</lastmod>
     
@@ -38,7 +29,16 @@
   </url>
   
   <url>
-    <loc>https://karlbaey.top/about/</loc>
+    <loc>https://karlbaey.top/articles/New-commenting-system-and-other-updates/</loc>
+    
+    <lastmod>2025-03-23</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://karlbaey.top/articles/commenting-system-launch/</loc>
     
     <lastmod>2025-03-23</lastmod>
     
