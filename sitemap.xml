@@ -4,16 +4,7 @@
   <url>
     <loc>https://karlbaey.top/friends/</loc>
     
-    <lastmod>2025-03-30</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://karlbaey.top/main/</loc>
-    
-    <lastmod>2025-03-29</lastmod>
+    <lastmod>2025-04-03</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -21,6 +12,15 @@
   
   <url>
     <loc>https://karlbaey.top/articles/RSS-tutorial-for-Karlblogs/</loc>
+    
+    <lastmod>2025-04-03</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://karlbaey.top/main/</loc>
     
     <lastmod>2025-03-29</lastmod>
     
@@ -202,7 +202,7 @@
 
   <url>
     <loc>https://karlbaey.top/</loc>
-    <lastmod>2025-03-30</lastmod>
+    <lastmod>2025-04-03</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
@@ -210,77 +210,77 @@
   
   <url>
     <loc>https://karlbaey.top/tags/Delights/</loc>
-    <lastmod>2025-03-30</lastmod>
+    <lastmod>2025-04-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://karlbaey.top/tags/Steamgames/</loc>
-    <lastmod>2025-03-30</lastmod>
+    <lastmod>2025-04-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://karlbaey.top/tags/Reviews/</loc>
-    <lastmod>2025-03-30</lastmod>
+    <lastmod>2025-04-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://karlbaey.top/tags/GettingStarted/</loc>
-    <lastmod>2025-03-30</lastmod>
+    <lastmod>2025-04-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://karlbaey.top/tags/GitHub/</loc>
-    <lastmod>2025-03-30</lastmod>
+    <lastmod>2025-04-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://karlbaey.top/tags/Guide/</loc>
-    <lastmod>2025-03-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://karlbaey.top/tags/DailyLife/</loc>
-    <lastmod>2025-03-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://karlbaey.top/tags/Past/</loc>
-    <lastmod>2025-03-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://karlbaey.top/tags/Sadness/</loc>
-    <lastmod>2025-03-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://karlbaey.top/tags/Original/</loc>
-    <lastmod>2025-03-30</lastmod>
+    <lastmod>2025-04-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://karlbaey.top/tags/Feed/</loc>
-    <lastmod>2025-03-30</lastmod>
+    <lastmod>2025-04-03</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://karlbaey.top/tags/DailyLife/</loc>
+    <lastmod>2025-04-03</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://karlbaey.top/tags/Past/</loc>
+    <lastmod>2025-04-03</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://karlbaey.top/tags/Sadness/</loc>
+    <lastmod>2025-04-03</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://karlbaey.top/tags/Original/</loc>
+    <lastmod>2025-04-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
@@ -289,21 +289,21 @@
   
   <url>
     <loc>https://karlbaey.top/categories/Karlblogs/</loc>
-    <lastmod>2025-03-30</lastmod>
+    <lastmod>2025-04-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://karlbaey.top/categories/Tales/</loc>
-    <lastmod>2025-03-30</lastmod>
+    <lastmod>2025-04-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://karlbaey.top/categories/Tech/</loc>
-    <lastmod>2025-03-30</lastmod>
+    <lastmod>2025-04-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
