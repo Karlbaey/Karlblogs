@@ -2,15 +2,6 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>https://karlbaey.top/articles/Zip-files-note/</loc>
-    
-    <lastmod>2025-04-06</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://karlbaey.top/articles/Markdown-editors-recommend/</loc>
     
     <lastmod>2025-04-06</lastmod>
@@ -326,13 +317,6 @@
   
   <url>
     <loc>https://karlbaey.top/tags/Markdown/</loc>
-    <lastmod>2025-04-06</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://karlbaey.top/tags/Learning/</loc>
     <lastmod>2025-04-06</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>

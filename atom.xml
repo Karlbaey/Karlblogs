@@ -6,7 +6,7 @@
   <link href="https://karlbaey.top/atom.xml" rel="self"/>
   
   <link href="https://karlbaey.top/"/>
-  <updated>2025-04-06T08:30:29.461Z</updated>
+  <updated>2025-04-04T15:57:09.544Z</updated>
   <id>https://karlbaey.top/</id>
   
   <author>
@@ -15,29 +15,6 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
-  
-  <entry>
-    <title>压缩包笔记</title>
-    <link href="https://karlbaey.top/articles/Zip-files-note/"/>
-    <id>https://karlbaey.top/articles/Zip-files-note/</id>
-    <published>2025-04-06T08:04:26.000Z</published>
-    <updated>2025-04-06T08:30:29.461Z</updated>
-    
-    <content type="html"><![CDATA[<blockquote><p>摘要<br>首页显示摘要内容（替换成自己的）</p></blockquote><span id="more"></span><p>正文内容（替换成自己的）</p><p>参考文章:<br><a href="">参考链接</a></p>]]></content>
-    
-    
-    <summary type="html">&lt;blockquote&gt;
-&lt;p&gt;摘要&lt;br&gt;首页显示摘要内容（替换成自己的）&lt;/p&gt;
-&lt;/blockquote&gt;</summary>
-    
-    
-    
-    <category term="Karlblogs" scheme="https://karlbaey.top/categories/Karlblogs/"/>
-    
-    
-    <category term="Learning" scheme="https://karlbaey.top/tags/Learning/"/>
-    
-  </entry>
   
   <entry>
     <title>【清明节特刊】乐评：碎月群岛BrokenMoon Islands</title>
