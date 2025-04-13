@@ -1,0 +1,252 @@
+<!doctype html>
+<html lang="zh"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"><meta><title>压缩包学习笔记 - Karlblogs</title><link rel="manifest" href="/manifest.json"><meta name="application-name" content="Karlblogs"><meta name="msapplication-TileImage" content="/images/Fundamental/Favicon.png"><meta name="apple-mobile-web-app-capable" content="yes"><meta name="apple-mobile-web-app-title" content="Karlblogs"><meta name="apple-mobile-web-app-status-bar-style" content="default"><meta name="description" content="摘要首页显示摘要内容（替换成自己的）"><meta property="og:type" content="article"><meta property="og:title" content="压缩包学习笔记"><meta property="og:url" content="https://karlbaey.top/articles/Compressed-files-notes/"><meta property="og:site_name" content="Karlblogs"><meta property="og:description" content="摘要首页显示摘要内容（替换成自己的）"><meta property="og:locale" content="zh_CN"><meta property="og:image" content="https://karlbaey.top/images/CompressedFileNote/ZipIcon.png"><meta property="og:image" content="https://karlbaey.top/images/CompressedFileNote/EXE.png"><meta property="og:image" content="https://karlbaey.top/images/CompressedFileNote/EXEIcon.png"><meta property="og:image" content="https://karlbaey.top/images/CompressedFileNote/BandiEXE.png"><meta property="og:image" content="https://karlbaey.top/images/CompressedFileNote/ZIPpwd.png"><meta property="og:image" content="https://karlbaey.top/images/CompressedFileNote/ZIPSFX.png"><meta property="article:published_time" content="2025-04-13T09:38:12.000Z"><meta property="article:modified_time" content="2025-04-13T09:38:12.723Z"><meta property="article:author" content="Jerry Karlbaey"><meta property="article:tag" content="Files"><meta property="article:tag" content="Desktop"><meta property="article:tag" content="Lanzou"><meta property="twitter:card" content="summary"><meta property="twitter:image:src" content="https://karlbaey.top/images/CompressedFileNote/ZipIcon.png"><script type="application/ld+json">{"@context":"https://schema.org","@type":"BlogPosting","mainEntityOfPage":{"@type":"WebPage","@id":"https://karlbaey.top/articles/Compressed-files-notes/"},"headline":"Karlblogs","image":["https://karlbaey.top/images/CompressedFileNote/ZipIcon.png","https://karlbaey.top/images/CompressedFileNote/EXE.png","https://karlbaey.top/images/CompressedFileNote/EXEIcon.png","https://karlbaey.top/images/CompressedFileNote/BandiEXE.png","https://karlbaey.top/images/CompressedFileNote/ZIPpwd.png","https://karlbaey.top/images/CompressedFileNote/ZIPSFX.png"],"datePublished":"2025-04-13T09:38:12.000Z","dateModified":"2025-04-13T09:38:12.723Z","author":{"@type":"Person","name":"Jerry Karlbaey"},"publisher":{"@type":"Organization","logo":{"@type":"ImageObject"}},"description":"摘要首页显示摘要内容（替换成自己的）"}</script><link rel="canonical" href="https://karlbaey.top/articles/Compressed-files-notes/"><link rel="alternate" href="/atom.xml" title="Karlblogs" type="application/atom+xml"><link rel="icon" href="/images/Fundamental/Favicon.png"><meta name="referrer" content="no-referrer-when-downgrade"><link rel="stylesheet" href="https://cdnjs.loli.net/ajax/libs/font-awesome/6.0.0/css/all.min.css"><link rel="stylesheet" href="https://cdnjs.loli.net/ajax/libs/highlight.js/11.7.0/styles/atom-one-light.min.css"><link rel="stylesheet" href="https://fonts.loli.net/css2?family=Ubuntu:wght@400;600&amp;family=Source+Code+Pro"><link rel="stylesheet" href="/css/default.css"><link rel="stylesheet" href="https://cdnjs.loli.net/ajax/libs/font-awesome/5.12.0/css/all.min.css"><link rel="stylesheet" href="https://fonts.loli.net/css?family=Ubuntu:400,600|Source+Code+Pro|Monda:300,300italic,400,400italic,700,700italic|Roboto Slab:300,300italic,400,400italic,700,700italic|Microsoft YaHei:300,300italic,400,400italic,700,700italic|PT Mono:300,300italic,400,400italic,700,700italic&amp;amp;subset=latin,latin-ext|Inconsolata|Itim|Lobster.css"><script src="https://cdnjs.loli.net/ajax/libs/jquery/3.3.1/jquery.min.js"></script><script src="/js/globalUtils.js"></script><style>body>.footer,body>.navbar,body>.section{opacity:0}</style><!--!--><!--!--><script src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js" defer></script><!--!--><link rel="stylesheet" href="https://cdnjs.loli.net/ajax/libs/lightgallery/1.10.0/css/lightgallery.min.css"><link rel="stylesheet" href="https://cdnjs.loli.net/ajax/libs/justifiedGallery/3.8.1/css/justifiedGallery.min.css"><!--!--><!--!--><!--!--><style>.pace{-webkit-pointer-events:none;pointer-events:none;-webkit-user-select:none;-moz-user-select:none;user-select:none}.pace-inactive{display:none}.pace .pace-progress{background:#3273dc;position:fixed;z-index:2000;top:0;right:100%;width:100%;height:2px}</style><script src="https://cdnjs.loli.net/ajax/libs/pace/1.2.4/pace.min.js"></script><meta name="follow.it-verification-code" content="4ZdhapARXP8aEfqfCzaE"><!-- hexo injector head_end start --><script>
+  (function () {
+      function switchTab() {
+          if (!location.hash) {
+            return;
+          }
+
+          const id = '#' + CSS.escape(location.hash.substring(1));
+          const $tabMenu = document.querySelector(`.tabs a[href="${id}"]`);
+          if (!$tabMenu) {
+            return;
+          }
+
+          const $tabMenuContainer = $tabMenu.parentElement.parentElement;
+          Array.from($tabMenuContainer.children).forEach($menu => $menu.classList.remove('is-active'));
+          Array.from($tabMenuContainer.querySelectorAll('a'))
+              .map($menu => document.getElementById($menu.getAttribute("href").substring(1)))
+              .forEach($content => $content.classList.add('is-hidden'));
+
+          if ($tabMenu) {
+              $tabMenu.parentElement.classList.add('is-active');
+          }
+          const $activeTab = document.querySelector(id);
+          if ($activeTab) {
+              $activeTab.classList.remove('is-hidden');
+          }
+      }
+      switchTab();
+      window.addEventListener('hashchange', switchTab, false);
+  })();
+  </script><!-- hexo injector head_end end --><meta name="generator" content="Hexo 7.3.0"></head><body class="is-3-column has-navbar-fixed-top"><nav class="navbar navbar-main is-fixed-top"><div class="container navbar-container"><div class="navbar-brand justify-content-center"><a class="navbar-item navbar-logo" href="/"><img src="/images/Fundamental/KarlblogsLogo2.png" alt="Karlblogs" height="28"></a></div><div class="navbar-menu"><div class="navbar-start"><a class="navbar-item" href="/">首页</a><a class="navbar-item" href="/archives">归档</a><a class="navbar-item" href="/categories">分类</a><a class="navbar-item" href="/tags">标签</a><a class="navbar-item" href="/friends">友链</a><a class="navbar-item" href="/chatters">碎碎念</a><a class="navbar-item" href="/message">留言</a><a class="navbar-item" href="/about/me">关于</a></div><div class="navbar-end"><a class="navbar-item" target="_blank" rel="noopener" title="我的 bilibili 页面" href="https://space.bilibili.com/383959860"><i class="fa-brands fa-bilibili"></i></a><a class="navbar-item" target="_blank" rel="noopener" title="我的 GitHub 页面" href="https://github.com/Karlbaey101"><i class="fab fa-github"></i></a><a class="navbar-item is-hidden-tablet catalogue" title="目录" href="javascript:;"><i class="fas fa-list-ul"></i></a><a class="navbar-item search" title="搜索" href="javascript:;"><i class="fas fa-search"></i></a><a class="navbar-item" id="night-nav" title="Night Mode" href="javascript:;"><i class="fas fa-moon" id="night-icon"></i></a></div></div></div></nav><script type="text/javascript" src="/js/theme-setting.js"></script><section class="section"><div class="container"><div class="columns"><div class="column order-2 column-main is-8-tablet is-8-desktop is-9-widescreen"><!--!--><div class="card"><article class="card-content article" role="article"><div class="article-meta size-small is-uppercase level is-mobile"><div class="level-left"><i class="far fa-calendar-plus"> </i>2025-04-13  <a class="commentCountImg" href="/articles/Compressed-files-notes/#comment-container"><span class="display-none-class">/articles/Compressed-files-notes/</span><i class="far fa-comment-dots"></i> <span class="commentCount" id="e388313490890f9d53906723e50de585">99+</span>  </a><span class="level-item"><i class="far fa-clock"> </i>17 分钟  <i class="fas fa-pencil-alt"> </i>2.6 k</span><span class="level-item" id="busuanzi_container_page_pv"><span id="busuanzi_value_page_pv">0</span>次访问</span></div></div><h1 class="title is-3 is-size-4-mobile">压缩包学习笔记</h1><div class="content"><blockquote>
+<p>摘要<br>首页显示摘要内容（替换成自己的）</p>
+</blockquote>
+<span id="more"></span>
+<p>正文内容（替换成自己的）</p>
+<p>参考文章:<br><a href="">参考链接</a></p>
+<h2 id="关于压缩包"><a href="#关于压缩包" class="headerlink" title="关于压缩包"></a>关于压缩包</h2><p><strong>压缩包</strong>的正式名称是<strong>归档文件</strong>，也叫<strong>压缩文件</strong>。压缩文件分为有损压缩和无损压缩。</p>
+<p>有损压缩通过抛弃部分不需要的数据，来实现减小文件大小的功能，也就是说，作为用户，必须接受压缩程序对原始文件的重新解释。最有代表性的就是 MP3 文件。简单来说，MP3 通过滤过人耳无法捕捉到的声音（也就是利用人耳听觉系统的遮蔽效应特性），来达到压缩音频大小的效果。</p>
+<p>无损压缩算法通过<strong>消除数据中的冗余和重复部分来压缩数据，同时保持数据的完整性和准确性</strong>。举个例子，这是一段无序的字符：</p>
+<p><code>ppppsdwwwwqq</code></p>
+<p>我们可以换一种书写方式，用数字代表这个字符出现的次数，省略<code>1</code>，所以就能得到：</p>
+<p><code>4psd4w2q</code></p>
+<p>这样，原长为 12 的字符串就被减少到了 8。当然，实际上的压缩算法比这更先进，也比使用有损压缩更复杂，而此时的压缩包已经是另一种文件格式了，如果想使用其中的数据，首先得用压缩软件把数据还原，这个过程称作解压缩。</p>
+<hr>
+<p>我想写的主要是诸如 .zip 之类的压缩文件，因此下面就不多写有损压缩的东西了。<img src="/images/CompressedFileNote/ZipIcon.png" alt="一个 ZIP 文件的示意图" style="zoom:150%;float:right" /></p>
+<p>平时看见的归档文件 icon，大多是一个文件夹裹上了皮带，示意用户这个文件已经被压缩好了，这个图案像一个打包好的包裹，因此得名压缩包。</p>
+<p>右图是 ZIP 格式压缩包的示意图。ZIP 格式也是目前最通行的压缩格式。</p>
+<p>命令行可以直接压缩文件，命令是</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">tar -a -c -f a.zip <span class="string">&quot;E:\Test\示例.txt&quot;</span></span><br></pre></td></tr></table></figure>
+
+<p>这会把 <code>E:\Test\示例.txt</code> 压缩为 <code>a.zip</code> 并存储到当前目录。 tar 主要是用来打包文件的，把多个文件或目录合并成一个文件，方便备份或传输。相当于一个封装好的文件夹。但 tar 本身不压缩，压缩的话通常要配合 gzip、bzip2 或者 xz 这些工具，比如用 -z 参数调用 gzip ，生成 .tar.gz 文件，或者用 -j 参数调用 bzip2 生成 .tar.bz2 文件。</p>
+<blockquote>
+<p>由于我一直在用 Bandizip 作为主力压缩软件，下面涉及的操作也大多通过 Bandizip 进行。文末提供一个下载源，<a target="_blank" rel="noopener" href="//www.bandisoft.com/bandizip/">这是官网→</a></p>
+</blockquote>
+<h3 id="压缩包格式"><a href="#压缩包格式" class="headerlink" title="压缩包格式"></a>压缩包格式</h3><p>下面列出一些常见的压缩包格式。<a target="_blank" rel="noopener" href="https://w.wiki/DnaT"><em>来自：维基百科-压缩文件格式列表</em></a></p>
+<table>
+<thead>
+<tr>
+<th align="center">文件后缀</th>
+<th align="center">用途&#x2F;应用</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="center"><strong>.zip</strong></td>
+<td align="center">使用 ZIP 压缩算法的压缩包格式。这是跨平台通用的压缩格式。可以使用 zip 命令创建和解压缩 ZIP 压缩包。</td>
+</tr>
+<tr>
+<td align="center"><strong>.rar</strong></td>
+<td align="center">使用 RAR 压缩算法的压缩包格式。这是 Windows 平台上常用的一种压缩格式。可以使用 WinRAR 或 7-Zip 等软件来创建和解压缩 RAR 压缩包。</td>
+</tr>
+<tr>
+<td align="center"><strong>.tar.gz &#x2F; .tgz</strong></td>
+<td align="center">先使用 tar 命令打包，然后再使用 gzip 算法压缩的格式。这是 Linux&#x2F;Unix 上常用的压缩包格式。可以使用 tar 命令来创建和解压缩。在 Linux&#x2F;Unix 以外的系统不常见。</td>
+</tr>
+<tr>
+<td align="center"><strong>tar.bz2</strong></td>
+<td align="center">与 tar.gz 类似，tar.bz2 格式先将文件打包，然后使用 bzip2 算法进行压缩。它也是 Linux 和 Unix 系统中常用的格式，通常提供比 gzip 更高的压缩率。</td>
+</tr>
+<tr>
+<td align="center"><strong>.7z</strong></td>
+<td align="center">7Z 是一种具有高压缩率的格式，由 7-Zip 压缩软件使用。7Z 格式的支持软件相对较少，但它因其出色的压缩效率而受到青睐。7-Zip 软件可以用来创建和解压 7Z 文件。缺点是，一旦 7Z 文件受到哪怕极其微小的损坏，也可能使它包含的文件无法再取出。</td>
+</tr>
+<tr>
+<td align="center"><strong>gz</strong> &amp; <strong>bz2</strong></td>
+<td align="center">这两种格式通常用于压缩单个文件，而不是整个文件夹。gzip 和 bzip2 命令可以分别用来创建和解压这两种格式的压缩文件。</td>
+</tr>
+</tbody></table>
+<p><em><strong>当然，还有诸如 ISO 等的压缩格式，但是因为都没有上述 6 个常用，故不在此提出。</strong></em></p>
+<p>如果你是 Linux 或者 Unix 用户，你一定全部见过了。所以下面会说一些后缀没那么常见的压缩包。</p>
+<h3 id="稀有压缩包后缀"><a href="#稀有压缩包后缀" class="headerlink" title="稀有压缩包后缀"></a>稀有压缩包后缀</h3><p>比如 EXE，这样的压缩包可以直接双击解压缩（仅限 Windows），比如：</p>
+<p><img src="/images/CompressedFileNote/EXE.png" alt="EXE 形态的压缩包"></p>
+<p>值得注意的是，如果你是 Bandizip 用户，这样的 EXE 文件并不会被 Windows 自动识别成窗口 icon，而是会变成 Bandizip 样式的 “EXE”。如图所示：</p>
+<p><img src="/images/CompressedFileNote/EXEIcon.png" alt="特别图案"></p>
+<p>双击打开后 Bandizip 会自动提示将要被解压到的目录，选择好并按下“开始”就执行解压任务了。</p>
+<p><img src="/images/CompressedFileNote/BandiEXE.png"></p>
+<p>然而事实上，你可以直接把 .exe 改为 .zip 再进行解压（因为文件后缀名只是用于标记这个文件如何存储数据，后缀名跟里面的数据没有直接联系）；但是相反，一个打包好的 ZIP 压缩包不能改后缀为 .exe。</p>
+<h2 id="压缩包特殊操作"><a href="#压缩包特殊操作" class="headerlink" title="压缩包特殊操作"></a>压缩包特殊操作</h2><p>上面说到，压缩包并不能被直接读取，需要<strong>解压缩</strong>，<strong>解压缩</strong>是<strong>压缩</strong>的逆操作。因此，在这两个步骤中可以加入一些特殊操作，以防止无关人等能读到自己的压缩包。很多资源站都会利用这些方式来防爆（防止资源被删）。</p>
+<h3 id="添加密码"><a href="#添加密码" class="headerlink" title="添加密码"></a>添加密码</h3><p>压缩操作中，可使用<code>添加密码</code>的操作来让人无法直接读取，比如：</p>
+<p><img src="/images/CompressedFileNote/ZIPpwd.png" alt="密码是：666"></p>
+<p>不建议使用这种密码，因为实在是太简单太容易破解了。同时，EXE 后缀的压缩包无法添加密码。</p>
+<h3 id="分卷压缩"><a href="#分卷压缩" class="headerlink" title="分卷压缩"></a>分卷压缩</h3><p>在压缩页面，如果选用分卷压缩（仅支持 <strong>ZIP &#x2F; ZIPX &#x2F; 7Z &#x2F; RAR &#x2F; EXE &#x2F; ACE &#x2F; BZ2 &#x2F; GZ</strong>，TAR 本身并不压缩，故不列入。数据来源：Bandizip。其实不能分卷的压缩格式大多数人一辈子也用不到），它会询问你每个卷应该多大，而不是多少卷，不过你可以靠自定义每一卷的大小来实现分割为特定卷数。</p>
+<p>分卷压缩时每一卷都会恰好地分成所选的大小，比如，选择 25 MB，以 ZIP 格式为例：</p>
+<p><img src="/images/CompressedFileNote/ZIPSFX.png"></p>
+<p>容易发现每一个卷都是严格的 25,600,000 字节。</p>
+<p>ZIP 分卷的显著特征是后缀名为  <code>.z01, .z02, .z03, ..., .zip</code> 。同样的，其他压缩后缀都有特定的分卷命名方式。</p>
+<p>以下是常见压缩格式的分卷压缩后缀名示例，整理成表格供参考：</p>
+<table>
+<thead>
+<tr>
+<th align="left"><strong>压缩类型</strong></th>
+<th align="left"><strong>分卷后缀示例</strong></th>
+<th align="left"><strong>说明</strong></th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="left"><strong><code>.tar + split</code></strong></td>
+<td align="left"><code>.part00</code>, <code>.part01</code></td>
+<td align="left">使用 <code>split</code> 分割的 <code>.tar</code> 归档，默认生成 <code>x00</code>, <code>x01</code>，可自定义前缀（如 <code>archive_part_00</code>）。</td>
+</tr>
+<tr>
+<td align="left"><strong><code>.tar.gz</code></strong></td>
+<td align="left"><code>.tar.gz.001</code>, <code>.tar.gz.002</code></td>
+<td align="left">分卷压缩时可能直接使用连续数字后缀（如结合 <code>split</code> 或自定义脚本）。</td>
+</tr>
+<tr>
+<td align="left"><strong><code>.zip</code></strong></td>
+<td align="left"><code>.zip</code>, <code>.z01</code>, <code>.z02</code></td>
+<td align="left">使用 <code>zip -s</code> 分卷时，主文件为 <code>.zip</code>，后续分卷为 <code>.z01</code>, <code>.z02</code> 等。</td>
+</tr>
+<tr>
+<td align="left"><strong><code>.7z</code></strong></td>
+<td align="left"><code>.7z.001</code>, <code>.7z.002</code></td>
+<td align="left">7-Zip 分卷压缩时默认使用 <code>.001</code>, <code>.002</code> 后缀。</td>
+</tr>
+<tr>
+<td align="left"><strong><code>.rar</code></strong></td>
+<td align="left"><code>.part1.rar</code>, <code>.part2.rar</code></td>
+<td align="left">WinRAR 分卷压缩默认生成 <code>.part1.rar</code>, <code>.part2.rar</code>。</td>
+</tr>
+<tr>
+<td align="left"><strong>通用数字后缀</strong></td>
+<td align="left"><code>.001</code>, <code>.002</code></td>
+<td align="left">通用分卷命名方式（如 <code>split -d</code> 生成的 <code>00</code>, <code>01</code> 或手动命名）。</td>
+</tr>
+</tbody></table>
+<p>解压缩时每个分卷<strong>必须</strong>在同一个文件夹里，全部卷的文件名<strong>必须</strong>一样，<strong>缺一不可</strong>。</p>
+<h2 id="一些小技巧……"><a href="#一些小技巧……" class="headerlink" title="一些小技巧……"></a>一些小技巧……</h2><p>一些资源站，由于一些原因，需要加密文件，但又需要保证用户能够<em>尽可能</em>不受阻地获得文件，这时候，压缩密码和分卷压缩就派上用场了，且它们可以同时使用。</p>
+<p>最典型的代表就是 <a target="_blank" rel="noopener" href="https://sp.tearemix.com/">Tearemix</a> 提供的南方公园动画。原文是这样写的：</p>
+<blockquote>
+<p>第一季打包：</p>
+<p>为了防爆，夸克网盘分两个链接，先把两个链接里的文件下载到同一个文件夹，然后把 S01.zip 文件名改成 S01.7z.004 ，再解压两次即可。解压密码：sp1997</p>
+<p>夸克网盘A部分 　夸克网盘B部分</p>
+</blockquote>
+<p>同时，针对一些限制文件大小的网盘（例如<a target="_blank" rel="noopener" href="//www.lanzoui.com/">蓝奏云</a>），也可以使用分卷压缩的方法存储大文件。缺点是，下载时会很麻烦。</p>
+<p>例如：这有一个 200 MB 左右的文件，如果希望上传蓝奏云那看起来充值不可避免，这时候就要利用分卷。又因为蓝奏云限制文件后缀名，还需要手动修改后缀，并建议标记好卷数。</p>
+<p>这是一个测试链接，看看你能不能解压成功 <a target="_blank" rel="noopener" href="https://karlbaey.lanzoum.com/b00uz2k6rc">https://karlbaey.lanzoum.com/b00uz2k6rc</a> 密码：WW2。</p>
+<h2 id="结语"><a href="#结语" class="headerlink" title="结语"></a>结语</h2><p>压缩……也没什么特别的吧，就是看到现在的赛博文盲太多，解压都解不利索，突然就想学一些压缩包的知识。不过也好，现在学会了挺多实用技巧，不用再被人骂赛博文盲了（喜）。</p>
+<p><em><strong>(The end)</strong></em></p>
+</div><div class="article-licensing box"><div class="licensing-title"><p>压缩包学习笔记</p><p><a href="https://karlbaey.top/articles/Compressed-files-notes/">https://karlbaey.top/articles/Compressed-files-notes/</a></p></div><div class="licensing-meta level is-mobile"><div class="level-left"><div class="level-item is-narrow"><div><h6>作者</h6><a href="https://karlbaey.top"><p>Jerry Karlbaey</p></a></div></div><div class="level-item is-narrow"><div><h6>发布于</h6><p>2025-04-13</p></div></div><div class="level-item is-narrow"><div><h6>更新于</h6><p>2025-04-13</p></div></div><div class="level-item is-narrow"><div><h6>许可协议</h6><p><a class="icon" rel="noopener" target="_blank" title="Creative Commons" href="https://creativecommons.org/"><i class="fab fa-creative-commons"></i></a><a class="icon" rel="noopener" target="_blank" title="Attribution" href="https://creativecommons.org/licenses/by/4.0/"><i class="fab fa-creative-commons-by"></i></a><a class="icon" rel="noopener" target="_blank" title="Noncommercial" href="https://creativecommons.org/licenses/by-nc/4.0/"><i class="fab fa-creative-commons-nc"></i></a><a class="icon" rel="noopener" target="_blank" title="ShareAlike" href="https://creativecommons.org/licenses/by-nc-sa/4.0/"><i class="fab fa-creative-commons-sa"></i></a></p></div></div></div></div></div><div class="recommend-area"><div class="recommend-post"><span class="is-size-6 has-text-grey has-mr-7"># 相关文章</span><br><span>  1.<a class="is-size-6" href="/articles/BrokenMoon-Islands/" target="_blank">【清明节特刊】乐评：碎月群岛BrokenMoon Islands</a><br></span><span>  2.<a class="is-size-6" href="/articles/RSS-tutorial-for-Karlblogs/" target="_blank">RSS 入门教程</a><br></span><span>  3.<a class="is-size-6" href="/articles/My-own-domain-karlbaey-top/" target="_blank">我终于有自己的域名啦！</a><br></span><span>  4.<a class="is-size-6" href="/articles/Markdown-editors-recommend/" target="_blank">Markdown编辑器推荐</a><br></span><span>  5.<a class="is-size-6" href="/articles/Markdown-grammar-quick-reference/" target="_blank">Markdown 语法速查</a><br></span><span>  6.<a class="is-size-6" href="/articles/Lieu-Evanoui/" target="_blank">不会再有的地方//Lieu Évanoui</a><br></span><span>  7.<a class="is-size-6" href="/articles/Hexo-blog-and-you/" target="_blank">Hexo 博客与你</a><br></span><span>  8.<a class="is-size-6" href="/articles/repair-success/" target="_blank">修复成功MVP结算</a><br></span></div><div class="recommend-post"><span class="is-size-6 has-text-grey has-mr-7"># 推荐文章</span><br><span>  1.<a class="is-size-6" href="/articles/the-edge-of-a-decade/" target="_blank">十年边缘//The Edge of a Decade</a><br></span></div></div><link rel="stylesheet" href="https://cdnjs.loli.net/ajax/libs/social-share.js/1.0.16/css/share.min.css"><div class="social-share"></div><script src="https://cdnjs.loli.net/ajax/libs/social-share.js/1.0.16/js/social-share.min.js"></script></article></div><div class="card"><div class="card-content"><h3 class="menu-label has-text-centered">喜欢这篇文章？打赏一下作者吧</h3><div class="buttons is-centered"><a class="button donate" data-type="wechat"><span class="icon is-small"><i class="fab fa-weixin"></i></span><span>微信</span><span class="qrcode"><img src="/images/Fundamental/WeChatQRCodePaying.jpg" alt="微信"></span></a></div></div></div><nav class="post-navigation mt-4 level is-mobile"><div class="level-end"><a class="article-nav-next level level-item link-muted" href="/articles/BrokenMoon-Islands/"><span class="level-item">【清明节特刊】乐评：碎月群岛BrokenMoon Islands</span><i class="level-item fas fa-chevron-right"></i></a></div></nav><!--!--><div class="card"><div class="card-content"><div class="title is-5">评论</div><script src="https://giscus.app/client.js" repo="karlbaey101/karlblogs-comments" data-repo="karlbaey101/karlblogs-comments" data-repo-id="R_kgDON2YNqA" data-category-id="DIC_kwDON2YNqM4Cm0iB" data-category="Announcements" data-mapping="pathname" data-strict="0" data-reactions-enabled="0" data-emit-metadata="0" data-input-position="top" data-theme="light_high_contrast" data-lang="zh-CN" crossorigin="anonymous" async></script></div></div></div><div class="column column-left is-4-tablet is-4-desktop is-3-widescreen  order-1 is-sticky"><div class="card widget" id="toc" data-type="toc"><div class="card-content"><div class="menu"><h3 class="menu-label">目录</h3><ul class="menu-list"><li><a class="is-flex is-mobile" href="#关于压缩包"><span>关于压缩包</span></a><ul class="menu-list"><li><a class="is-flex is-mobile" href="#压缩包格式"><span>压缩包格式</span></a></li><li><a class="is-flex is-mobile" href="#稀有压缩包后缀"><span>稀有压缩包后缀</span></a></li></ul></li><li><a class="is-flex is-mobile" href="#压缩包特殊操作"><span>压缩包特殊操作</span></a><ul class="menu-list"><li><a class="is-flex is-mobile" href="#添加密码"><span>添加密码</span></a></li><li><a class="is-flex is-mobile" href="#分卷压缩"><span>分卷压缩</span></a></li></ul></li><li><a class="is-flex is-mobile" href="#一些小技巧……"><span>一些小技巧……</span></a></li><li><a class="is-flex is-mobile" href="#结语"><span>结语</span></a></li></ul></div></div><style>.menu-list > li > a.is-active + .menu-list { display: block; }.menu-list > li > a + .menu-list { display: none; }</style><script src="/js/toc.js" defer></script></div><div class="card widget" data-type="profile"><div class="card-content"><nav class="level"><div class="level-item has-text-centered flex-shrink-1"><div><figure class="image is-128x128 mx-auto mb-2"><img class="avatar" src="/images/Fundamental/avatar.png" alt="Jerry Karlbaey"></figure><p class="title is-size-4 is-block" style="line-height:inherit;">Jerry Karlbaey</p><p class="is-size-6 is-block">A Normal Writer &amp;&amp; Student</p><p class="is-size-6 is-flex justify-content-center"><i class="fas fa-map-marker-alt mr-1"></i><span>The Rekalyab Islands, Earth</span></p></div></div></nav><nav class="level is-mobile"><div class="level-item has-text-centered is-marginless"><div><p class="heading">文章</p><a href="/archives/"><p class="title">14</p></a></div></div><div class="level-item has-text-centered is-marginless"><div><p class="heading">分类</p><a href="/categories/"><p class="title">4</p></a></div></div><div class="level-item has-text-centered is-marginless"><div><p class="heading">标签</p><a href="/tags/"><p class="title">18</p></a></div></div></nav><div class="level"><a class="level-item button is-primary is-rounded" href="https://github.com/karlbaey101" target="_blank" rel="noopener">关注我</a></div><div class="level is-mobile"><a class="level-item button is-transparent is-marginless" target="_blank" rel="noopener" title="Github" href="https://github.com/karlbaey101"><i class="fab fa-github"></i></a><a class="level-item button is-transparent is-marginless" target="_blank" rel="noopener" title="Weibo" href="https://weibo.com/u/7974338049"><i class="fab fa-weibo"></i></a><a class="level-item button is-transparent is-marginless" target="_blank" rel="noopener" title="Email" href="mailto:karlbaey101@outlook.com"><i class="fa fa-envelope"></i></a><a class="level-item button is-transparent is-marginless" target="_blank" rel="noopener" title="Next" href="https://karlbaey.top"><i class="fab fa-dribbble"></i></a><a class="level-item button is-transparent is-marginless" target="_blank" rel="noopener" title="RSS" href="/atom.xml"><i class="fas fa-rss"></i></a></div><div><hr><p id="hitokoto">:D 一言句子获取中...</p><script type="text/javascript" defer>function getYiyan(){
+                                $.getJSON("https://v1.hitokoto.cn/", function (data) {
+                                if(data){
+                                    $('#hitokoto').html("");
+                                    $('#hitokoto').append("<strong style='color: #3273dc;'>"+data.hitokoto+"</strong>"+
+                                    "<p>"+"来源《"+data.from+"》</p><p>提供者-"+data.creator+"</p>");
+                                }});}
+                                $(function (){getYiyan();$('#hitokoto').click(function(){getYiyan();})});</script></div></div></div><!--!--><div class="card widget"><div class="card-content"><h3 class="menu-label">最新文章</h3><article class="media"><div class="media-content"><p class="date"><time dateTime="2025-04-13T09:38:12.000Z">2025-04-13</time></p><p class="title"><a href="/articles/Compressed-files-notes/">压缩包学习笔记</a></p><p class="categories"><a href="/categories/Karlblogs/">Karlblogs</a></p></div></article><article class="media"><figure class="media-left"><a class="image" href="/articles/BrokenMoon-Islands/"><img src="/images/BrokenMoon/世界地图.png" alt="【清明节特刊】乐评：碎月群岛BrokenMoon Islands"></a></figure><div class="media-content"><p class="date"><time dateTime="2025-04-04T04:00:38.000Z">2025-04-04</time></p><p class="title"><a href="/articles/BrokenMoon-Islands/">【清明节特刊】乐评：碎月群岛BrokenMoon Islands</a></p><p class="categories"><a href="/categories/Karlblogs/">Karlblogs</a></p></div></article><article class="media"><figure class="media-left"><a class="image" href="/articles/RSS-tutorial-for-Karlblogs/"><img src="/images/RSSTutorial/RSSForKarlblogs.png" alt="RSS 入门教程"></a></figure><div class="media-content"><p class="date"><time dateTime="2025-03-29T02:26:58.000Z">2025-03-29</time></p><p class="title"><a href="/articles/RSS-tutorial-for-Karlblogs/">RSS 入门教程</a></p><p class="categories"><a href="/categories/Karlblogs/">Karlblogs</a></p></div></article><article class="media"><div class="media-content"><p class="date"><time dateTime="2025-03-21T15:38:41.000Z">2025-03-21</time></p><p class="title"><a href="/articles/My-own-domain-karlbaey-top/">我终于有自己的域名啦！</a></p><p class="categories"><a href="/categories/Karlblogs/">Karlblogs</a></p></div></article><article class="media"><div class="media-content"><p class="date"><time dateTime="2025-03-15T13:17:01.000Z">2025-03-15</time></p><p class="title"><a href="/articles/New-commenting-system-and-other-updates/">新评论系统上线！🚀（以及其他的技术更新）</a></p><p class="categories"><a href="/categories/Tech/">Tech</a></p></div></article></div></div><div class="card widget"><div class="card-content"><div class="menu"><h3 class="menu-label">分类</h3><ul class="menu-list"><li><a class="level is-mobile is-marginless" href="/categories/Karlblogs/"><span class="level-start"><span class="level-item">Karlblogs</span></span><span class="level-end"><span class="level-item tag">11</span></span></a><ul class="mr-0"><li><a class="level is-mobile is-marginless" href="/categories/Karlblogs/Reviews/"><span class="level-start"><span class="level-item">Reviews</span></span><span class="level-end"><span class="level-item tag">1</span></span></a></li></ul></li><li><a class="level is-mobile is-marginless" href="/categories/Tales/"><span class="level-start"><span class="level-item">Tales</span></span><span class="level-end"><span class="level-item tag">1</span></span></a></li><li><a class="level is-mobile is-marginless" href="/categories/Tech/"><span class="level-start"><span class="level-item">Tech</span></span><span class="level-end"><span class="level-item tag">2</span></span></a></li></ul></div></div></div><div class="card widget"><div class="card-content"><div class="menu"><h3 class="menu-label">归档</h3><ul class="menu-list"><li><a class="level is-mobile is-marginless" href="/archives/2025/04/"><span class="level-start"><span class="level-item">四月 2025</span></span><span class="level-end"><span class="level-item tag">2</span></span></a></li><li><a class="level is-mobile is-marginless" href="/archives/2025/03/"><span class="level-start"><span class="level-item">三月 2025</span></span><span class="level-end"><span class="level-item tag">4</span></span></a></li><li><a class="level is-mobile is-marginless" href="/archives/2025/02/"><span class="level-start"><span class="level-item">二月 2025</span></span><span class="level-end"><span class="level-item tag">8</span></span></a></li></ul></div></div></div><div class="card widget"><div class="card-content"><div class="menu"><h3 class="menu-label">标签</h3><div class="field is-grouped is-grouped-multiline"><div class="control"><a class="tags has-addons" href="/tags/Delights/"><span class="tag">Delights</span><span class="tag is-grey-lightest">7</span></a></div><div class="control"><a class="tags has-addons" href="/tags/GettingStarted/"><span class="tag">GettingStarted</span><span class="tag is-grey-lightest">5</span></a></div><div class="control"><a class="tags has-addons" href="/tags/GitHub/"><span class="tag">GitHub</span><span class="tag is-grey-lightest">4</span></a></div><div class="control"><a class="tags has-addons" href="/tags/Guide/"><span class="tag">Guide</span><span class="tag is-grey-lightest">4</span></a></div><div class="control"><a class="tags has-addons" href="/tags/DailyLife/"><span class="tag">DailyLife</span><span class="tag is-grey-lightest">3</span></a></div><div class="control"><a class="tags has-addons" href="/tags/Milestone/"><span class="tag">Milestone</span><span class="tag is-grey-lightest">3</span></a></div><div class="control"><a class="tags has-addons" href="/tags/Reviews/"><span class="tag">Reviews</span><span class="tag is-grey-lightest">3</span></a></div><div class="control"><a class="tags has-addons" href="/tags/Markdown/"><span class="tag">Markdown</span><span class="tag is-grey-lightest">2</span></a></div><div class="control"><a class="tags has-addons" href="/tags/Past/"><span class="tag">Past</span><span class="tag is-grey-lightest">2</span></a></div><div class="control"><a class="tags has-addons" href="/tags/Desktop/"><span class="tag">Desktop</span><span class="tag is-grey-lightest">1</span></a></div><div class="control"><a class="tags has-addons" href="/tags/Feed/"><span class="tag">Feed</span><span class="tag is-grey-lightest">1</span></a></div><div class="control"><a class="tags has-addons" href="/tags/Files/"><span class="tag">Files</span><span class="tag is-grey-lightest">1</span></a></div><div class="control"><a class="tags has-addons" href="/tags/Lanzou/"><span class="tag">Lanzou</span><span class="tag is-grey-lightest">1</span></a></div><div class="control"><a class="tags has-addons" href="/tags/Minecraft/"><span class="tag">Minecraft</span><span class="tag is-grey-lightest">1</span></a></div><div class="control"><a class="tags has-addons" href="/tags/Music/"><span class="tag">Music</span><span class="tag is-grey-lightest">1</span></a></div><div class="control"><a class="tags has-addons" href="/tags/Original/"><span class="tag">Original</span><span class="tag is-grey-lightest">1</span></a></div><div class="control"><a class="tags has-addons" href="/tags/Sadness/"><span class="tag">Sadness</span><span class="tag is-grey-lightest">1</span></a></div><div class="control"><a class="tags has-addons" href="/tags/Steamgames/"><span class="tag">Steamgames</span><span class="tag is-grey-lightest">1</span></a></div></div></div></div></div><div class="card widget" data-type="subscribe-email"><div class="card-content"><div class="menu"><h3 class="menu-label">订阅更新</h3><form action="https://feedburner.google.com/fb/a/mailverify" method="post" target="popupwindow" onsubmit="window.open(&#039;https://feedburner.google.com/fb/a/mailverify?uri=https://feeds.feedburner.com/Karlfeed&#039;,&#039;popupwindow&#039;,&#039;scrollbars=yes,width=550,height=520&#039;);return true"><input type="hidden" value="https://feeds.feedburner.com/Karlfeed" name="uri"><input type="hidden" name="loc" value="en_US"><div class="field has-addons"><div class="control has-icons-left is-expanded"><input class="input" name="email" type="email" placeholder="Email"><span class="icon is-small is-left"><i class="fas fa-envelope"></i></span></div><div class="control"><input class="button" type="submit" value="订阅"></div></div><p class="help">这是我的正式 feed（中国大陆地区无法访问）</p></form></div></div></div><div class="card widget" data-type="subscribe-email"><div class="card-content"><div class="menu"><h3 class="menu-label">follow.it</h3><form action="https://api.follow.it/subscription-form/aDVpTk9TRmtpSHdTNUJUSzZ6WCt3a0NpbDFrMUczZVVXREhGZDZMY1dzcXd0UVp2aEl1SndGMVRsV1NHMEp4d2p0Y2wwRXVBWE1FMTFKV0xTZG9TcitUN0FCRHJqUENwa1VQQjZMVEwzS1Q2cGtVZWlUM2FiMVhXTjdrWm05ZEt8MGI3NWNBKzhzd0JuU2ZOK2JHV2pZSVlRRHlJLzBsRDVyZCtGSU1GM2VqMD0=/8" method="post" target="_blank"><div class="field has-addons"><div class="control has-icons-left is-expanded"><input class="input" name="email" type="email" placeholder="Email"><span class="icon is-small is-left"><i class="fas fa-envelope"></i></span></div><div class="control"><input class="button" type="submit" value="订阅"></div></div><p class="help">在这里输入你的邮箱并确认，就能收到我的博客更新通知了！</p></form></div></div></div><div class="column-right-shadow is-hidden-widescreen"></div></div></div></div></section><footer class="footer"><div class="container"><div class="level"><div class="level-start"><a class="footer-logo is-block mb-2" href="/"><img src="/images/Fundamental/KarlblogsLogo2.png" alt="Karlblogs" height="28"></a><p class="size-small"><span>&copy; 2025 Jerry Karlbaey</span>  Powered by <a href="https://hexo.io/" target="_blank">Hexo</a> &amp; <a href="https://github.com/ppoffice/hexo-theme-icarus" target="_blank">Icarus</a> &amp; <a href="https://github.com/removeif/hexo-theme-amazing" target="_blank">Amazing</a> <br><span>© 2025 Karlblogs All Rights Reserved <br> <a href="https://icp.gov.moe/?keyword=20255566" target="_blank">萌ICP备20255566号</a></span><span><span id="statistic-times">loading...</span><script>function createTime(time) {
+            var n = new Date(time);
+            now.setTime(now.getTime() + 250),
+                days = (now - n) / 1e3 / 60 / 60 / 24,
+                dnum = Math.floor(days),
+                hours = (now - n) / 1e3 / 60 / 60 - 24 * dnum,
+                hnum = Math.floor(hours),
+            1 == String(hnum).length && (hnum = "0" + hnum),
+                minutes = (now - n) / 1e3 / 60 - 1440 * dnum - 60 * hnum,
+                mnum = Math.floor(minutes),
+            1 == String(mnum).length && (mnum = "0" + mnum),
+                seconds = (now - n) / 1e3 - 86400 * dnum - 3600 * hnum - 60 * mnum,
+                snum = Math.round(seconds),
+            1 == String(snum).length && (snum = "0" + snum),
+                document.getElementById("statistic-times").innerHTML = "❤️本站自 <strong>"+time.split(" ")[0].replace(/\//g,".")+"</strong> 已运行 <strong>" + dnum + "</strong> 天 <strong>" + hnum + "</strong> 小时 <strong>" + mnum + "</strong> 分 <strong>" + snum + "</strong> 秒！❤️";
+        }var now = new Date();setInterval("createTime('2025/02/08 17:34:52')", 250,"");</script><br></span><div class="size-small"><span>❤️感谢 <strong><span id="busuanzi_value_site_uv">99+</span></strong> 小伙伴的 <strong><span id="busuanzi_value_site_pv">99+</span></strong> 次光临！❤️</span></div></p></div><div class="level-end"><div class="field has-addons"><p class="control"><a class="button is-transparent is-large" target="_blank" rel="noopener" title="Creative Commons" href="https://creativecommons.org/"><i class="fab fa-creative-commons"></i></a></p><p class="control"><a class="button is-transparent is-large" target="_blank" rel="noopener" title="Attribution 4.0 International" href="https://creativecommons.org/licenses/by/4.0/"><i class="fab fa-creative-commons-by"></i></a></p><p class="control"><a class="button is-transparent is-large" target="_blank" rel="noopener" title="Noncommercial 4.0 International" href="https://creativecommons.org/licenses/by-nc-sa/4.0/"><i class="fab fa-creative-commons-nc"></i></a></p><p class="control"><a class="button is-transparent is-large" target="_blank" rel="noopener" title="ShareAlike 4.0 Intenational" href="https://creativecommons.org/licenses/by-nc-sa/4.0/"><i class="fab fa-creative-commons-sa"></i></a></p><p class="control"><a class="button is-transparent is-large" target="_blank" rel="noopener" title="我的 bilibili 页面" href="https://space.bilibili.com/383959860"><i class="fa-brands fa-bilibili"></i></a></p><p class="control"><a class="button is-transparent is-large" target="_blank" rel="noopener" title="我的 GitHub 页面" href="https://github.com/Karlbaey101"><i class="fab fa-github"></i></a></p></div><div class="sideMusic"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.css"><script src="/js/APlayer.min.js"></script><script src="https://cdn.jsdelivr.net/npm/meting@2/dist/Meting.min.js"></script><meting-js style="width: auto;height: 2000px;" server="netease" type="playlist" id="13480575866" theme="#2980b9" loop="all" autoplay="false" order="list" storageName="aplayer-setting" lrctype="0" list-max-height="400px" fixed="true"></meting-js></div></div></div></div></footer><script src="https://cdnjs.loli.net/ajax/libs/moment.js/2.22.2/moment-with-locales.min.js"></script><script src="https://cdnjs.loli.net/ajax/libs/clipboard.js/2.0.4/clipboard.min.js" async></script><script>moment.locale("zh-cn");</script><script>var IcarusThemeSettings = {
+            article: {
+                highlight: {
+                    clipboard: true,
+                    fold: 'unfolded'
+                }
+            }
+        };</script><script src="/js/column.js"></script><script src="/js/animation.js"></script><a id="back-to-top" title="回到顶端" href="javascript:;"><i class="fas fa-chevron-up"></i></a><script src="/js/back_to_top.js" defer></script><!--!--><!--!--><!--!--><script src="https://cdnjs.loli.net/ajax/libs/lightgallery/1.10.0/js/lightgallery.min.js" defer></script><script src="https://cdnjs.loli.net/ajax/libs/justifiedGallery/3.8.1/js/jquery.justifiedGallery.min.js" defer></script><script>window.addEventListener("load", () => {
+            if (typeof $.fn.lightGallery === 'function') {
+                $('.article').lightGallery({ selector: '.gallery-item' });
+            }
+            if (typeof $.fn.justifiedGallery === 'function') {
+                if ($('.justified-gallery > p > .gallery-item').length) {
+                    $('.justified-gallery > p > .gallery-item').unwrap();
+                }
+                $('.justified-gallery').justifiedGallery();
+            }
+        });</script><!--!--><!--!--><link rel="stylesheet" href="https://cdnjs.loli.net/ajax/libs/KaTeX/0.15.1/katex.min.css"><script src="https://cdnjs.loli.net/ajax/libs/KaTeX/0.15.1/katex.min.js" defer></script><script src="https://cdnjs.loli.net/ajax/libs/KaTeX/0.15.1/contrib/auto-render.min.js" defer></script><script src="https://cdnjs.loli.net/ajax/libs/KaTeX/0.15.1/contrib/mhchem.min.js" defer></script><script>window.addEventListener("load", function() {
+            document.querySelectorAll('[role="article"] > .content').forEach(function(element) {
+                renderMathInElement(element);
+            });
+        });</script><!--!--><script src="/js/main.js" defer></script><div class="searchbox"><div class="searchbox-container"><div class="searchbox-header"><div class="searchbox-input-container"><input class="searchbox-input" type="text" placeholder="想要查找什么..."></div><a class="searchbox-close" href="javascript:;">×</a></div><div class="searchbox-body"></div></div></div><script data-pjax src="/js/insight.js" defer></script><script data-pjax>document.addEventListener('DOMContentLoaded', function () {
+            loadInsight({"contentUrl":"/content.json"}, {"hint":"想要查找什么...","untitled":"(无标题)","posts":"文章","pages":"页面","categories":"分类","tags":"标签"});
+        });</script><script src="https://cdn.jsdelivr.net/npm/pjax@0.2.8/pjax.js"></script><script type="text/javascript">var pjax = new Pjax({
+            elements: "a",//代表点击链接就更新
+            selectors: [  //代表要更新的节点
+                ".section",
+                "title"
+            ],
+            cache: true,
+            cacheBust:false
+        })
+
+        function loadBusuanzi(){
+        $.getScript("//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js", function () {});
+        }
+
+        function loadMathJax() { //加载mathjax
+            $.getScript("//cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.4/MathJax.js?config=TeX-MML-AM_CHTML", function () {
+                MathJax.Hub.Config({ tex2jax: { inlineMath: [['$', '$'], ['\(', '\)']] } });
+                var math = document.getElementsByClassName("entry-content")[0];
+                MathJax.Hub.Queue(["Typeset", MathJax.Hub, math]);
+            });
+        };
+
+        // 开始 PJAX 执行的函数
+        document.addEventListener('pjax:send', function () {
+        });
+        
+        // PJAX 完成之后执行的函数，可以和上面的重载放在一起
+        document.addEventListener('pjax:complete', function () {
+            $(".section").css({opacity:1});
+            if(false){
+                $.getScript('/js/comment-issue-data.js',function(){loadIssueData('undefined','undefined','undefined','undefined',undefined);});
+            }
+            if(true){
+                loadMathJax();
+            }
+            loadMainJs(jQuery, window.moment, window.ClipboardJS, window.IcarusThemeSettings);
+            loadBackTop();
+            loadBusuanzi();
+            if(typeof loadBanner == 'function'){
+                loadBanner();
+            }
+        });</script><script type="text/javascript">function loadMathJax() { //加载mathjax
+            $.getScript("//cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.4/MathJax.js?config=TeX-MML-AM_CHTML", function () {
+                MathJax.Hub.Config({ tex2jax: { inlineMath: [['$', '$'], ['\(', '\)']] } });
+                var math = document.getElementsByClassName("entry-content")[0];
+                MathJax.Hub.Queue(["Typeset", MathJax.Hub, math]);
+            });
+        };loadMathJax();</script></body></html>
