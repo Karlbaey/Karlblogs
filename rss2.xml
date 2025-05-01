@@ -1,0 +1,432 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0"
+  xmlns:atom="http://www.w3.org/2005/Atom"
+  xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Karlblogs</title>
+    <link>https://karlbaey.top/</link>
+    
+    <image>
+      <url>https://karlbaey.top/icon.png</url>
+      <title>Karlblogs</title>
+      <link>https://karlbaey.top/</link>
+    </image>
+    
+    <atom:link href="https://karlbaey.top/rss2.xml" rel="self" type="application/rss+xml"/>
+    
+    <description></description>
+    <pubDate>Thu, 01 May 2025 05:59:38 GMT</pubDate>
+    <generator>http://hexo.io/</generator>
+    
+    <item>
+      <title>「新」动计划 · 编程入门 题面与答案解释</title>
+      <link>https://karlbaey.top/articles/Primers-list/</link>
+      <guid>https://karlbaey.top/articles/Primers-list/</guid>
+      <pubDate>Sun, 20 Apr 2025 10:01:57 GMT</pubDate>
+      
+      <description>算法新手完成的第一套题单。</description>
+      
+      
+      
+      
+      <category domain="https://karlbaey.top/categories/Karlblogs/">Karlblogs</category>
+      
+      <category domain="https://karlbaey.top/categories/Karlblogs/Algo/">Algo</category>
+      
+      
+      <category domain="https://karlbaey.top/tags/GettingStarted/">GettingStarted</category>
+      
+      <category domain="https://karlbaey.top/tags/Algos/">Algos</category>
+      
+      <category domain="https://karlbaey.top/tags/Python/">Python</category>
+      
+      <category domain="https://karlbaey.top/tags/LeetCode/">LeetCode</category>
+      
+      
+      <comments>https://karlbaey.top/articles/Primers-list/#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
+      <title>卡尔白算法之路的开山之作：LeetCode20-有效的括号</title>
+      <link>https://karlbaey.top/articles/Valid-parentheses/</link>
+      <guid>https://karlbaey.top/articles/Valid-parentheses/</guid>
+      <pubDate>Sun, 20 Apr 2025 09:51:42 GMT</pubDate>
+      
+      <description>开山之作！括号匹配算法的祖师爷！</description>
+      
+      
+      
+      
+      <category domain="https://karlbaey.top/categories/Karlblogs/">Karlblogs</category>
+      
+      <category domain="https://karlbaey.top/categories/Karlblogs/Algos/">Algos</category>
+      
+      
+      <category domain="https://karlbaey.top/tags/GettingStarted/">GettingStarted</category>
+      
+      <category domain="https://karlbaey.top/tags/Algos/">Algos</category>
+      
+      <category domain="https://karlbaey.top/tags/Python/">Python</category>
+      
+      <category domain="https://karlbaey.top/tags/LeetCode/">LeetCode</category>
+      
+      
+      <comments>https://karlbaey.top/articles/Valid-parentheses/#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
+      <title>压缩包学习笔记</title>
+      <link>https://karlbaey.top/articles/Compressed-files-notes/</link>
+      <guid>https://karlbaey.top/articles/Compressed-files-notes/</guid>
+      <pubDate>Sun, 13 Apr 2025 09:38:12 GMT</pubDate>
+      
+      <description>一些关于压缩包的，好玩的东西。</description>
+      
+      
+      
+      
+      <category domain="https://karlbaey.top/categories/Karlblogs/">Karlblogs</category>
+      
+      
+      <category domain="https://karlbaey.top/tags/Files/">Files</category>
+      
+      <category domain="https://karlbaey.top/tags/Desktop/">Desktop</category>
+      
+      <category domain="https://karlbaey.top/tags/Lanzou/">Lanzou</category>
+      
+      
+      <comments>https://karlbaey.top/articles/Compressed-files-notes/#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
+      <title>【清明节特刊】乐评：碎月群岛BrokenMoon Islands</title>
+      <link>https://karlbaey.top/articles/BrokenMoon-Islands/</link>
+      <guid>https://karlbaey.top/articles/BrokenMoon-Islands/</guid>
+      <pubDate>Fri, 04 Apr 2025 04:00:38 GMT</pubDate>
+      
+      <description>&lt;p&gt;这是一个发生在很久很久以前的故事，发生在传说中的碎月群岛。&lt;/p&gt;</description>
+      
+      
+      
+      
+      <category domain="https://karlbaey.top/categories/Karlblogs/">Karlblogs</category>
+      
+      
+      <category domain="https://karlbaey.top/tags/Reviews/">Reviews</category>
+      
+      <category domain="https://karlbaey.top/tags/Music/">Music</category>
+      
+      <category domain="https://karlbaey.top/tags/Minecraft/">Minecraft</category>
+      
+      
+      <comments>https://karlbaey.top/articles/BrokenMoon-Islands/#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
+      <title>RSS 入门教程</title>
+      <link>https://karlbaey.top/articles/RSS-tutorial-for-Karlblogs/</link>
+      <guid>https://karlbaey.top/articles/RSS-tutorial-for-Karlblogs/</guid>
+      <pubDate>Sat, 29 Mar 2025 02:26:58 GMT</pubDate>
+      
+      <description>通过阅读这篇博客，你能通过 RSS 订阅你想要的东西，同时尽可能避免被算法裹挟。</description>
+      
+      
+      
+      
+      <category domain="https://karlbaey.top/categories/Karlblogs/">Karlblogs</category>
+      
+      
+      <category domain="https://karlbaey.top/tags/GettingStarted/">GettingStarted</category>
+      
+      <category domain="https://karlbaey.top/tags/GitHub/">GitHub</category>
+      
+      <category domain="https://karlbaey.top/tags/Guide/">Guide</category>
+      
+      <category domain="https://karlbaey.top/tags/Feed/">Feed</category>
+      
+      
+      <comments>https://karlbaey.top/articles/RSS-tutorial-for-Karlblogs/#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
+      <title>我终于有自己的域名啦！</title>
+      <link>https://karlbaey.top/articles/My-own-domain-karlbaey-top/</link>
+      <guid>https://karlbaey.top/articles/My-own-domain-karlbaey-top/</guid>
+      <pubDate>Fri, 21 Mar 2025 15:38:41 GMT</pubDate>
+      
+      <description>在建站一个月以后，我拥有了自己的域名。</description>
+      
+      
+      
+      
+      <category domain="https://karlbaey.top/categories/Karlblogs/">Karlblogs</category>
+      
+      
+      <category domain="https://karlbaey.top/tags/Delights/">Delights</category>
+      
+      <category domain="https://karlbaey.top/tags/GettingStarted/">GettingStarted</category>
+      
+      <category domain="https://karlbaey.top/tags/GitHub/">GitHub</category>
+      
+      <category domain="https://karlbaey.top/tags/Milestone/">Milestone</category>
+      
+      
+      <comments>https://karlbaey.top/articles/My-own-domain-karlbaey-top/#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
+      <title>新评论系统上线！🚀（以及其他的技术更新）</title>
+      <link>https://karlbaey.top/articles/New-commenting-system-and-other-updates/</link>
+      <guid>https://karlbaey.top/articles/New-commenting-system-and-other-updates/</guid>
+      <pubDate>Sat, 15 Mar 2025 13:17:01 GMT</pubDate>
+      
+      <description>终于摆脱臃肿的 utterances 了！我的网站也多了很多新东西！</description>
+      
+      
+      
+      
+      <category domain="https://karlbaey.top/categories/Tech/">Tech</category>
+      
+      
+      <category domain="https://karlbaey.top/tags/Delights/">Delights</category>
+      
+      <category domain="https://karlbaey.top/tags/GettingStarted/">GettingStarted</category>
+      
+      <category domain="https://karlbaey.top/tags/GitHub/">GitHub</category>
+      
+      <category domain="https://karlbaey.top/tags/Milestone/">Milestone</category>
+      
+      
+      <comments>https://karlbaey.top/articles/New-commenting-system-and-other-updates/#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
+      <title>Markdown编辑器推荐</title>
+      <link>https://karlbaey.top/articles/Markdown-editors-recommend/</link>
+      <guid>https://karlbaey.top/articles/Markdown-editors-recommend/</guid>
+      <pubDate>Sat, 01 Mar 2025 15:52:50 GMT</pubDate>
+      
+      <description>学校里看到了一张相当令人高血压的 Markdown 格式海报，居然还是学校科创社的作品。我觉得很有必要写一些 Markdown 的正确打开方式了。</description>
+      
+      
+      
+      
+      <category domain="https://karlbaey.top/categories/Karlblogs/">Karlblogs</category>
+      
+      
+      <category domain="https://karlbaey.top/tags/Reviews/">Reviews</category>
+      
+      <category domain="https://karlbaey.top/tags/Guide/">Guide</category>
+      
+      <category domain="https://karlbaey.top/tags/Markdown/">Markdown</category>
+      
+      
+      <comments>https://karlbaey.top/articles/Markdown-editors-recommend/#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
+      <title>Markdown 语法速查</title>
+      <link>https://karlbaey.top/articles/Markdown-grammar-quick-reference/</link>
+      <guid>https://karlbaey.top/articles/Markdown-grammar-quick-reference/</guid>
+      <pubDate>Fri, 21 Feb 2025 12:39:15 GMT</pubDate>
+      
+      <description>&lt;p&gt;Markdown 语法速查表，在编写博客时很有用。&lt;a href=&quot;https://pan.moe/s/dbKC4&quot;&gt;提供pdf格式下载&lt;/a&gt;。&lt;/p&gt;</description>
+      
+      
+      
+      
+      <category domain="https://karlbaey.top/categories/Karlblogs/">Karlblogs</category>
+      
+      
+      <category domain="https://karlbaey.top/tags/Guide/">Guide</category>
+      
+      <category domain="https://karlbaey.top/tags/Markdown/">Markdown</category>
+      
+      
+      <comments>https://karlbaey.top/articles/Markdown-grammar-quick-reference/#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
+      <title>不会再有的地方//Lieu Évanoui</title>
+      <link>https://karlbaey.top/articles/Lieu-Evanoui/</link>
+      <guid>https://karlbaey.top/articles/Lieu-Evanoui/</guid>
+      <pubDate>Sat, 15 Feb 2025 13:08:19 GMT</pubDate>
+      
+      <description>&lt;p&gt;他们回首望去，眼中满含泪水，&amp;#x2F;&amp;#x2F;看到东方那乐园的大门紧闭，&amp;#x2F;&amp;#x2F;火焰的剑在他们面前挥舞，&amp;#x2F;&amp;#x2F;无情地阻挡了他们的归路。&amp;#x2F;&amp;#x2F;他们只得转身，面对荒凉的世界，&amp;#x2F;&amp;#x2F;步履沉重，心中充满无尽的悲伤。&lt;br&gt;&lt;em&gt;&lt;p align=&quot;right&quot; &gt;——约翰·弥尔顿《失乐园·卷拾贰·陆肆壹~陆肆陆行》&lt;/p&gt;&lt;/em&gt;&lt;/p&gt;</description>
+      
+      
+      
+      
+      <category domain="https://karlbaey.top/categories/Karlblogs/">Karlblogs</category>
+      
+      
+      <category domain="https://karlbaey.top/tags/DailyLife/">DailyLife</category>
+      
+      <category domain="https://karlbaey.top/tags/Past/">Past</category>
+      
+      <category domain="https://karlbaey.top/tags/Sadness/">Sadness</category>
+      
+      
+      <comments>https://karlbaey.top/articles/Lieu-Evanoui/#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
+      <title>评论系统上线！🎇</title>
+      <link>https://karlbaey.top/articles/commenting-system-launch/</link>
+      <guid>https://karlbaey.top/articles/commenting-system-launch/</guid>
+      <pubDate>Mon, 10 Feb 2025 09:11:13 GMT</pubDate>
+      
+      <description>在有自己的站点之后，我才认识到博客生涯并非一帆风顺。</description>
+      
+      
+      
+      
+      <category domain="https://karlbaey.top/categories/Tech/">Tech</category>
+      
+      
+      <category domain="https://karlbaey.top/tags/Delights/">Delights</category>
+      
+      <category domain="https://karlbaey.top/tags/DailyLife/">DailyLife</category>
+      
+      
+      <comments>https://karlbaey.top/articles/commenting-system-launch/#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
+      <title>Hexo 博客与你</title>
+      <link>https://karlbaey.top/articles/Hexo-blog-and-you/</link>
+      <guid>https://karlbaey.top/articles/Hexo-blog-and-you/</guid>
+      <pubDate>Sun, 09 Feb 2025 12:13:15 GMT</pubDate>
+      
+      <description>如何利用 GitHub 与 Hexo 搭建你的个人博客。</description>
+      
+      
+      
+      
+      <category domain="https://karlbaey.top/categories/Karlblogs/">Karlblogs</category>
+      
+      
+      <category domain="https://karlbaey.top/tags/Delights/">Delights</category>
+      
+      <category domain="https://karlbaey.top/tags/GettingStarted/">GettingStarted</category>
+      
+      <category domain="https://karlbaey.top/tags/GitHub/">GitHub</category>
+      
+      <category domain="https://karlbaey.top/tags/Guide/">Guide</category>
+      
+      
+      <comments>https://karlbaey.top/articles/Hexo-blog-and-you/#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
+      <title>HELLTAKER评测</title>
+      <link>https://karlbaey.top/articles/HELLTAKER-Review/</link>
+      <guid>https://karlbaey.top/articles/HELLTAKER-Review/</guid>
+      <pubDate>Sun, 09 Feb 2025 11:51:49 GMT</pubDate>
+      
+      <description>完美通关《HELLTAKER》后，这是卡尔白大脑发生的变化。</description>
+      
+      
+      
+      
+      <category domain="https://karlbaey.top/categories/Karlblogs/">Karlblogs</category>
+      
+      <category domain="https://karlbaey.top/categories/Karlblogs/Reviews/">Reviews</category>
+      
+      
+      <category domain="https://karlbaey.top/tags/Delights/">Delights</category>
+      
+      <category domain="https://karlbaey.top/tags/Steamgames/">Steamgames</category>
+      
+      <category domain="https://karlbaey.top/tags/Reviews/">Reviews</category>
+      
+      
+      <comments>https://karlbaey.top/articles/HELLTAKER-Review/#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
+      <title>十年边缘//The Edge of a Decade</title>
+      <link>https://karlbaey.top/articles/the-edge-of-a-decade/</link>
+      <guid>https://karlbaey.top/articles/the-edge-of-a-decade/</guid>
+      <pubDate>Sun, 09 Feb 2025 07:37:06 GMT</pubDate>
+      
+      <description>自己的一些往事，文学美化色彩很浓。</description>
+      
+      
+      
+      
+      <category domain="https://karlbaey.top/categories/Tales/">Tales</category>
+      
+      
+      <category domain="https://karlbaey.top/tags/Delights/">Delights</category>
+      
+      <category domain="https://karlbaey.top/tags/Past/">Past</category>
+      
+      <category domain="https://karlbaey.top/tags/Original/">Original</category>
+      
+      
+      <comments>https://karlbaey.top/articles/the-edge-of-a-decade/#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
+      <title>修复成功MVP结算</title>
+      <link>https://karlbaey.top/articles/repair-success/</link>
+      <guid>https://karlbaey.top/articles/repair-success/</guid>
+      <pubDate>Sat, 08 Feb 2025 15:32:52 GMT</pubDate>
+      
+      <description>搭博客到一半，网页崩了……</description>
+      
+      
+      
+      
+      <category domain="https://karlbaey.top/categories/Karlblogs/">Karlblogs</category>
+      
+      
+      <category domain="https://karlbaey.top/tags/Delights/">Delights</category>
+      
+      <category domain="https://karlbaey.top/tags/DailyLife/">DailyLife</category>
+      
+      
+      <comments>https://karlbaey.top/articles/repair-success/#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
+      <title>第一篇博客</title>
+      <link>https://karlbaey.top/articles/my-first-blog/</link>
+      <guid>https://karlbaey.top/articles/my-first-blog/</guid>
+      <pubDate>Sat, 08 Feb 2025 09:40:24 GMT</pubDate>
+      
+      <description>&lt;p&gt;不知道花了多少时间，终于把我的 GitHub 个人博客搭好了。&lt;/p&gt;</description>
+      
+      
+      
+      
+      <category domain="https://karlbaey.top/categories/Karlblogs/">Karlblogs</category>
+      
+      
+      <category domain="https://karlbaey.top/tags/GettingStarted/">GettingStarted</category>
+      
+      <category domain="https://karlbaey.top/tags/Milestone/">Milestone</category>
+      
+      
+      <comments>https://karlbaey.top/articles/my-first-blog/#disqus_thread</comments>
+      
+    </item>
+    
+  </channel>
+</rss>
