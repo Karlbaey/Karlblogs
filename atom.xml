@@ -6,7 +6,7 @@
   <link href="https://karlbaey.top/atom.xml" rel="self"/>
   
   <link href="https://karlbaey.top/"/>
-  <updated>2025-05-01T05:59:38.934Z</updated>
+  <updated>2025-05-17T19:18:28.484Z</updated>
   <id>https://karlbaey.top/</id>
   
   <author>
@@ -15,6 +15,25 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>一道物理小题</title>
+    <link href="https://karlbaey.top/articles/a-simple-phys-problem/"/>
+    <id>https://karlbaey.top/articles/a-simple-phys-problem/</id>
+    <published>2025-05-17T19:05:31.000Z</published>
+    <updated>2025-05-17T19:18:28.484Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;没 blog 可写的时候，&lt;a href=&quot;https://nekoa.day/&quot;&gt;Neko&lt;/a&gt; 给了我一道物理题。&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="Karlblogs" scheme="https://karlbaey.top/categories/Karlblogs/"/>
+    
+    
+    <category term="physics" scheme="https://karlbaey.top/tags/physics/"/>
+    
+  </entry>
   
   <entry>
     <title>「新」动计划 · 编程入门 题面与答案解释</title>

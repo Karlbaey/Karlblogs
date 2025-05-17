@@ -15,8 +15,29 @@
     <atom:link href="https://karlbaey.top/rss2.xml" rel="self" type="application/rss+xml"/>
     
     <description></description>
-    <pubDate>Thu, 01 May 2025 05:59:38 GMT</pubDate>
+    <pubDate>Sat, 17 May 2025 19:18:28 GMT</pubDate>
     <generator>http://hexo.io/</generator>
+    
+    <item>
+      <title>一道物理小题</title>
+      <link>https://karlbaey.top/articles/a-simple-phys-problem/</link>
+      <guid>https://karlbaey.top/articles/a-simple-phys-problem/</guid>
+      <pubDate>Sat, 17 May 2025 19:05:31 GMT</pubDate>
+      
+      <description>&lt;p&gt;没 blog 可写的时候，&lt;a href=&quot;https://nekoa.day/&quot;&gt;Neko&lt;/a&gt; 给了我一道物理题。&lt;/p&gt;</description>
+      
+      
+      
+      
+      <category domain="https://karlbaey.top/categories/Karlblogs/">Karlblogs</category>
+      
+      
+      <category domain="https://karlbaey.top/tags/physics/">physics</category>
+      
+      
+      <comments>https://karlbaey.top/articles/a-simple-phys-problem/#disqus_thread</comments>
+      
+    </item>
     
     <item>
       <title>「新」动计划 · 编程入门 题面与答案解释</title>
