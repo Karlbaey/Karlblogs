@@ -15,8 +15,36 @@
     <atom:link href="https://karlbaey.top/rss2.xml" rel="self" type="application/rss+xml"/>
     
     <description></description>
-    <pubDate>Sat, 31 May 2025 18:51:54 GMT</pubDate>
+    <pubDate>Sat, 07 Jun 2025 18:00:18 GMT</pubDate>
     <generator>http://hexo.io/</generator>
+    
+    <item>
+      <title>公告板</title>
+      <link>https://karlbaey.top/articles/ANNOUNCEMENT/</link>
+      <guid>https://karlbaey.top/articles/ANNOUNCEMENT/</guid>
+      <pubDate>Sat, 07 Jun 2025 18:00:18 GMT</pubDate>
+      
+        
+        
+          
+          
+      <description>&lt;link rel=&quot;stylesheet&quot; type=&quot;text/css&quot; href=&quot;https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css&quot;&gt;&lt;!--这是一行注释--&gt;
+&lt;p&gt;开了个新站 &lt;a</description>
+          
+        
+      
+      
+      
+      
+      <category domain="https://karlbaey.top/categories/ANNOUNCEMENT/">ANNOUNCEMENT</category>
+      
+      
+      <category domain="https://karlbaey.top/tags/ANNOUNCEMENT/">ANNOUNCEMENT</category>
+      
+      
+      <comments>https://karlbaey.top/articles/ANNOUNCEMENT/#disqus_thread</comments>
+      
+    </item>
     
     <item>
       <title>Nothing Dawn</title>
@@ -70,7 +98,7 @@
       <guid>https://karlbaey.top/articles/a-simple-phys-problem/</guid>
       <pubDate>Sat, 17 May 2025 19:05:31 GMT</pubDate>
       
-      <description>&lt;p&gt;没 blog 可写的时候，&lt;a href=&quot;https://nekoa.day/&quot;&gt;Neko&lt;/a&gt; 给了我一道物理题。&lt;/p&gt;</description>
+      <description>&lt;p&gt;没 blog 可写的时候，&lt;a href=&quot;https://nekoa.day&quot;&gt;Neko&lt;/a&gt; 给了我一道物理题。&lt;/p&gt;</description>
       
       
       
@@ -328,7 +356,8 @@
       <guid>https://karlbaey.top/articles/Lieu-Evanoui/</guid>
       <pubDate>Sat, 15 Feb 2025 13:08:19 GMT</pubDate>
       
-      <description>&lt;p&gt;他们回首望去，眼中满含泪水，&amp;#x2F;&amp;#x2F;看到东方那乐园的大门紧闭，&amp;#x2F;&amp;#x2F;火焰的剑在他们面前挥舞，&amp;#x2F;&amp;#x2F;无情地阻挡了他们的归路。&amp;#x2F;&amp;#x2F;他们只得转身，面对荒凉的世界，&amp;#x2F;&amp;#x2F;步履沉重，心中充满无尽的悲伤。&lt;br&gt;&lt;em&gt;&lt;p align=&quot;right&quot; &gt;——约翰·弥尔顿《失乐园·卷拾贰·陆肆壹~陆肆陆行》&lt;/p&gt;&lt;/em&gt;&lt;/p&gt;</description>
+      <description>&lt;p&gt;他们回首望去，眼中满含泪水，//看到东方那乐园的大门紧闭，//火焰的剑在他们面前挥舞，//无情地阻挡了他们的归路。//他们只得转身，面对荒凉的世界，//步履沉重，心中充满无尽的悲伤。&lt;br&gt;
+&lt;em&gt;&lt;p align=&quot;right&quot; &gt;——约翰·弥尔顿《失乐园·卷拾贰·陆肆壹~陆肆陆行》&lt;/p&gt;&lt;/em&gt;&lt;/p&gt;</description>
       
       
       

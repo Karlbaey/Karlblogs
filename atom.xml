@@ -6,7 +6,7 @@
   <link href="https://karlbaey.top/atom.xml" rel="self"/>
   
   <link href="https://karlbaey.top/"/>
-  <updated>2025-05-31T18:51:54.108Z</updated>
+  <updated>2025-06-07T18:00:18.753Z</updated>
   <id>https://karlbaey.top/</id>
   
   <author>
@@ -17,11 +17,37 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>公告板</title>
+    <link href="https://karlbaey.top/articles/ANNOUNCEMENT/"/>
+    <id>https://karlbaey.top/articles/ANNOUNCEMENT/</id>
+    <published>2025-06-07T18:00:18.000Z</published>
+    <updated>2025-06-07T18:00:18.753Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;link rel=&quot;stylesheet&quot; type=&quot;text/css&quot; href=&quot;https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css&quot;&gt;&lt;!--这是一行注释--&gt;
+&lt;p&gt;开了个新站 &lt;a</summary>
+        
+      
+    
+    
+    
+    <category term="ANNOUNCEMENT" scheme="https://karlbaey.top/categories/ANNOUNCEMENT/"/>
+    
+    
+    <category term="ANNOUNCEMENT" scheme="https://karlbaey.top/tags/ANNOUNCEMENT/"/>
+    
+  </entry>
+  
+  <entry>
     <title>Nothing Dawn</title>
     <link href="https://karlbaey.top/articles/nothing-dawn/"/>
     <id>https://karlbaey.top/articles/nothing-dawn/</id>
     <published>2025-05-31T18:51:54.000Z</published>
-    <updated>2025-05-31T18:51:54.108Z</updated>
+    <updated>2025-05-31T19:10:13.081Z</updated>
     
     
     <summary type="html">&lt;!--这是一行注释--&gt;
@@ -66,7 +92,7 @@
     <updated>2025-05-17T19:18:28.484Z</updated>
     
     
-    <summary type="html">&lt;p&gt;没 blog 可写的时候，&lt;a href=&quot;https://nekoa.day/&quot;&gt;Neko&lt;/a&gt; 给了我一道物理题。&lt;/p&gt;</summary>
+    <summary type="html">&lt;p&gt;没 blog 可写的时候，&lt;a href=&quot;https://nekoa.day&quot;&gt;Neko&lt;/a&gt; 给了我一道物理题。&lt;/p&gt;</summary>
     
     
     
@@ -304,7 +330,8 @@
     <updated>2025-03-23T08:33:50.042Z</updated>
     
     
-    <summary type="html">&lt;p&gt;他们回首望去，眼中满含泪水，&amp;#x2F;&amp;#x2F;看到东方那乐园的大门紧闭，&amp;#x2F;&amp;#x2F;火焰的剑在他们面前挥舞，&amp;#x2F;&amp;#x2F;无情地阻挡了他们的归路。&amp;#x2F;&amp;#x2F;他们只得转身，面对荒凉的世界，&amp;#x2F;&amp;#x2F;步履沉重，心中充满无尽的悲伤。&lt;br&gt;&lt;em&gt;&lt;p align=&quot;right&quot; &gt;——约翰·弥尔顿《失乐园·卷拾贰·陆肆壹~陆肆陆行》&lt;/p&gt;&lt;/em&gt;&lt;/p&gt;</summary>
+    <summary type="html">&lt;p&gt;他们回首望去，眼中满含泪水，//看到东方那乐园的大门紧闭，//火焰的剑在他们面前挥舞，//无情地阻挡了他们的归路。//他们只得转身，面对荒凉的世界，//步履沉重，心中充满无尽的悲伤。&lt;br&gt;
+&lt;em&gt;&lt;p align=&quot;right&quot; &gt;——约翰·弥尔顿《失乐园·卷拾贰·陆肆壹~陆肆陆行》&lt;/p&gt;&lt;/em&gt;&lt;/p&gt;</summary>
     
     
     
