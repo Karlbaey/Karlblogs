@@ -108,7 +108,7 @@
     <link href="https://karlbaey.top/articles/Primers-list/"/>
     <id>https://karlbaey.top/articles/Primers-list/</id>
     <published>2025-04-20T10:01:57.000Z</published>
-    <updated>2025-05-01T05:59:38.934Z</updated>
+    <updated>2025-06-28T12:08:13.451Z</updated>
     
     
     <summary type="html">算法新手完成的第一套题单。</summary>
@@ -119,8 +119,6 @@
     
     <category term="Algo" scheme="https://karlbaey.top/categories/Karlblogs/Algo/"/>
     
-    
-    <category term="GettingStarted" scheme="https://karlbaey.top/tags/GettingStarted/"/>
     
     <category term="Algos" scheme="https://karlbaey.top/tags/Algos/"/>
     
@@ -135,7 +133,7 @@
     <link href="https://karlbaey.top/articles/Valid-parentheses/"/>
     <id>https://karlbaey.top/articles/Valid-parentheses/</id>
     <published>2025-04-20T09:51:42.000Z</published>
-    <updated>2025-05-01T05:59:33.162Z</updated>
+    <updated>2025-06-28T12:08:43.641Z</updated>
     
     
     <summary type="html">开山之作！括号匹配算法的祖师爷！</summary>
@@ -144,10 +142,6 @@
     
     <category term="Karlblogs" scheme="https://karlbaey.top/categories/Karlblogs/"/>
     
-    <category term="Algos" scheme="https://karlbaey.top/categories/Karlblogs/Algos/"/>
-    
-    
-    <category term="GettingStarted" scheme="https://karlbaey.top/tags/GettingStarted/"/>
     
     <category term="Algos" scheme="https://karlbaey.top/tags/Algos/"/>
     
@@ -185,7 +179,7 @@
     <link href="https://karlbaey.top/articles/BrokenMoon-Islands/"/>
     <id>https://karlbaey.top/articles/BrokenMoon-Islands/</id>
     <published>2025-04-04T04:00:38.000Z</published>
-    <updated>2025-05-01T05:59:29.486Z</updated>
+    <updated>2025-06-28T12:08:55.882Z</updated>
     
     
     <summary type="html">&lt;p&gt;这是一个发生在很久很久以前的故事，发生在传说中的碎月群岛。&lt;/p&gt;</summary>
@@ -197,8 +191,6 @@
     
     <category term="Reviews" scheme="https://karlbaey.top/tags/Reviews/"/>
     
-    <category term="Music" scheme="https://karlbaey.top/tags/Music/"/>
-    
     <category term="Minecraft" scheme="https://karlbaey.top/tags/Minecraft/"/>
     
   </entry>
@@ -208,7 +200,7 @@
     <link href="https://karlbaey.top/articles/RSS-tutorial-for-Karlblogs/"/>
     <id>https://karlbaey.top/articles/RSS-tutorial-for-Karlblogs/</id>
     <published>2025-03-29T02:26:58.000Z</published>
-    <updated>2025-04-04T04:25:04.587Z</updated>
+    <updated>2025-06-28T12:11:50.773Z</updated>
     
     
     <summary type="html">通过阅读这篇博客，你能通过 RSS 订阅你想要的东西，同时尽可能避免被算法裹挟。</summary>
@@ -218,13 +210,7 @@
     <category term="Karlblogs" scheme="https://karlbaey.top/categories/Karlblogs/"/>
     
     
-    <category term="GettingStarted" scheme="https://karlbaey.top/tags/GettingStarted/"/>
-    
-    <category term="GitHub" scheme="https://karlbaey.top/tags/GitHub/"/>
-    
     <category term="Guide" scheme="https://karlbaey.top/tags/Guide/"/>
-    
-    <category term="Feed" scheme="https://karlbaey.top/tags/Feed/"/>
     
   </entry>
   
@@ -233,7 +219,7 @@
     <link href="https://karlbaey.top/articles/My-own-domain-karlbaey-top/"/>
     <id>https://karlbaey.top/articles/My-own-domain-karlbaey-top/</id>
     <published>2025-03-21T15:38:41.000Z</published>
-    <updated>2025-04-04T04:25:20.311Z</updated>
+    <updated>2025-06-28T12:09:35.646Z</updated>
     
     
     <summary type="html">在建站一个月以后，我拥有了自己的域名。</summary>
@@ -242,10 +228,6 @@
     
     <category term="Karlblogs" scheme="https://karlbaey.top/categories/Karlblogs/"/>
     
-    
-    <category term="Delights" scheme="https://karlbaey.top/tags/Delights/"/>
-    
-    <category term="GettingStarted" scheme="https://karlbaey.top/tags/GettingStarted/"/>
     
     <category term="GitHub" scheme="https://karlbaey.top/tags/GitHub/"/>
     
@@ -258,7 +240,7 @@
     <link href="https://karlbaey.top/articles/New-commenting-system-and-other-updates/"/>
     <id>https://karlbaey.top/articles/New-commenting-system-and-other-updates/</id>
     <published>2025-03-15T13:17:01.000Z</published>
-    <updated>2025-04-04T04:25:12.982Z</updated>
+    <updated>2025-06-28T12:09:59.769Z</updated>
     
     
     <summary type="html">终于摆脱臃肿的 utterances 了！我的网站也多了很多新东西！</summary>
@@ -267,12 +249,6 @@
     
     <category term="Tech" scheme="https://karlbaey.top/categories/Tech/"/>
     
-    
-    <category term="Delights" scheme="https://karlbaey.top/tags/Delights/"/>
-    
-    <category term="GettingStarted" scheme="https://karlbaey.top/tags/GettingStarted/"/>
-    
-    <category term="GitHub" scheme="https://karlbaey.top/tags/GitHub/"/>
     
     <category term="Milestone" scheme="https://karlbaey.top/tags/Milestone/"/>
     
@@ -283,7 +259,7 @@
     <link href="https://karlbaey.top/articles/Markdown-editors-recommend/"/>
     <id>https://karlbaey.top/articles/Markdown-editors-recommend/</id>
     <published>2025-03-01T15:52:50.000Z</published>
-    <updated>2025-04-06T08:16:15.938Z</updated>
+    <updated>2025-06-28T12:10:58.196Z</updated>
     
     
     <summary type="html">学校里看到了一张相当令人高血压的 Markdown 格式海报，居然还是学校科创社的作品。我觉得很有必要写一些 Markdown 的正确打开方式了。</summary>
@@ -295,8 +271,6 @@
     
     <category term="Reviews" scheme="https://karlbaey.top/tags/Reviews/"/>
     
-    <category term="Guide" scheme="https://karlbaey.top/tags/Guide/"/>
-    
     <category term="Markdown" scheme="https://karlbaey.top/tags/Markdown/"/>
     
   </entry>
@@ -306,7 +280,7 @@
     <link href="https://karlbaey.top/articles/Markdown-grammar-quick-reference/"/>
     <id>https://karlbaey.top/articles/Markdown-grammar-quick-reference/</id>
     <published>2025-02-21T12:39:15.000Z</published>
-    <updated>2025-04-06T08:16:07.687Z</updated>
+    <updated>2025-06-28T12:11:35.264Z</updated>
     
     
     <summary type="html">&lt;p&gt;Markdown 语法速查表，在编写博客时很有用。&lt;a href=&quot;https://pan.moe/s/dbKC4&quot;&gt;提供pdf格式下载&lt;/a&gt;。&lt;/p&gt;</summary>
@@ -351,7 +325,7 @@
     <link href="https://karlbaey.top/articles/commenting-system-launch/"/>
     <id>https://karlbaey.top/articles/commenting-system-launch/</id>
     <published>2025-02-10T09:11:13.000Z</published>
-    <updated>2025-03-23T07:58:33.367Z</updated>
+    <updated>2025-06-28T12:09:02.949Z</updated>
     
     
     <summary type="html">在有自己的站点之后，我才认识到博客生涯并非一帆风顺。</summary>
@@ -361,10 +335,6 @@
     <category term="Tech" scheme="https://karlbaey.top/categories/Tech/"/>
     
     
-    <category term="Delights" scheme="https://karlbaey.top/tags/Delights/"/>
-    
-    <category term="DailyLife" scheme="https://karlbaey.top/tags/DailyLife/"/>
-    
   </entry>
   
   <entry>
@@ -372,7 +342,7 @@
     <link href="https://karlbaey.top/articles/Hexo-blog-and-you/"/>
     <id>https://karlbaey.top/articles/Hexo-blog-and-you/</id>
     <published>2025-02-09T12:13:15.000Z</published>
-    <updated>2025-05-23T11:59:28.289Z</updated>
+    <updated>2025-06-28T12:10:45.960Z</updated>
     
     
     <summary type="html">如何利用 GitHub 与 Hexo 搭建你的个人博客。</summary>
@@ -382,38 +352,9 @@
     <category term="Karlblogs" scheme="https://karlbaey.top/categories/Karlblogs/"/>
     
     
-    <category term="Delights" scheme="https://karlbaey.top/tags/Delights/"/>
-    
-    <category term="GettingStarted" scheme="https://karlbaey.top/tags/GettingStarted/"/>
-    
     <category term="GitHub" scheme="https://karlbaey.top/tags/GitHub/"/>
     
     <category term="Guide" scheme="https://karlbaey.top/tags/Guide/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>HELLTAKER评测</title>
-    <link href="https://karlbaey.top/articles/HELLTAKER-Review/"/>
-    <id>https://karlbaey.top/articles/HELLTAKER-Review/</id>
-    <published>2025-02-09T11:51:49.000Z</published>
-    <updated>2025-04-04T04:26:23.367Z</updated>
-    
-    
-    <summary type="html">完美通关《HELLTAKER》后，这是卡尔白大脑发生的变化。</summary>
-    
-    
-    
-    <category term="Karlblogs" scheme="https://karlbaey.top/categories/Karlblogs/"/>
-    
-    <category term="Reviews" scheme="https://karlbaey.top/categories/Karlblogs/Reviews/"/>
-    
-    
-    <category term="Delights" scheme="https://karlbaey.top/tags/Delights/"/>
-    
-    <category term="Steamgames" scheme="https://karlbaey.top/tags/Steamgames/"/>
-    
-    <category term="Reviews" scheme="https://karlbaey.top/tags/Reviews/"/>
     
   </entry>
   
@@ -422,7 +363,7 @@
     <link href="https://karlbaey.top/articles/the-edge-of-a-decade/"/>
     <id>https://karlbaey.top/articles/the-edge-of-a-decade/</id>
     <published>2025-02-09T07:37:06.000Z</published>
-    <updated>2025-06-13T17:10:36.029Z</updated>
+    <updated>2025-06-28T12:09:14.219Z</updated>
     
     
     <summary type="html">自己的一些往事，文学美化色彩很浓。</summary>
@@ -431,10 +372,6 @@
     
     <category term="Tales" scheme="https://karlbaey.top/categories/Tales/"/>
     
-    
-    <category term="Delights" scheme="https://karlbaey.top/tags/Delights/"/>
-    
-    <category term="Past" scheme="https://karlbaey.top/tags/Past/"/>
     
     <category term="Original" scheme="https://karlbaey.top/tags/Original/"/>
     
@@ -445,7 +382,7 @@
     <link href="https://karlbaey.top/articles/repair-success/"/>
     <id>https://karlbaey.top/articles/repair-success/</id>
     <published>2025-02-08T15:32:52.000Z</published>
-    <updated>2025-04-04T04:26:45.832Z</updated>
+    <updated>2025-06-28T12:10:32.688Z</updated>
     
     
     <summary type="html">搭博客到一半，网页崩了……</summary>
@@ -455,9 +392,7 @@
     <category term="Karlblogs" scheme="https://karlbaey.top/categories/Karlblogs/"/>
     
     
-    <category term="Delights" scheme="https://karlbaey.top/tags/Delights/"/>
-    
-    <category term="DailyLife" scheme="https://karlbaey.top/tags/DailyLife/"/>
+    <category term="Nothing" scheme="https://karlbaey.top/tags/Nothing/"/>
     
   </entry>
   
@@ -466,7 +401,7 @@
     <link href="https://karlbaey.top/articles/my-first-blog/"/>
     <id>https://karlbaey.top/articles/my-first-blog/</id>
     <published>2025-02-08T09:40:24.000Z</published>
-    <updated>2025-04-04T04:25:33.524Z</updated>
+    <updated>2025-06-28T12:08:22.572Z</updated>
     
     
     <summary type="html">&lt;p&gt;不知道花了多少时间，终于把我的 GitHub 个人博客搭好了。&lt;/p&gt;</summary>
@@ -475,8 +410,6 @@
     
     <category term="Karlblogs" scheme="https://karlbaey.top/categories/Karlblogs/"/>
     
-    
-    <category term="GettingStarted" scheme="https://karlbaey.top/tags/GettingStarted/"/>
     
     <category term="Milestone" scheme="https://karlbaey.top/tags/Milestone/"/>
     
