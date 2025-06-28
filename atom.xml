@@ -6,7 +6,7 @@
   <link href="https://karlbaey.top/atom.xml" rel="self"/>
   
   <link href="https://karlbaey.top/"/>
-  <updated>2025-06-08T08:40:53.724Z</updated>
+  <updated>2025-06-28T17:34:40.365Z</updated>
   <id>https://karlbaey.top/</id>
   
   <author>
@@ -15,6 +15,25 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Neko回忆录 Ⅰ</title>
+    <link href="https://karlbaey.top/articles/dear-neko-i/"/>
+    <id>https://karlbaey.top/articles/dear-neko-i/</id>
+    <published>2025-06-28T17:29:45.000Z</published>
+    <updated>2025-06-28T17:34:40.365Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;我的妻子，Neko 小姐，是一个长相非常可爱，个子很高，对我也很温柔的女孩子。&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="Tales" scheme="https://karlbaey.top/categories/Tales/"/>
+    
+    
+    <category term="Serial" scheme="https://karlbaey.top/tags/Serial/"/>
+    
+  </entry>
   
   <entry>
     <title>公告板</title>
@@ -156,7 +175,7 @@
     <link href="https://karlbaey.top/articles/Compressed-files-notes/"/>
     <id>https://karlbaey.top/articles/Compressed-files-notes/</id>
     <published>2025-04-13T09:38:12.000Z</published>
-    <updated>2025-04-13T09:48:54.177Z</updated>
+    <updated>2025-06-28T17:36:25.347Z</updated>
     
     
     <summary type="html">一些关于压缩包的，好玩的东西。</summary>
@@ -166,11 +185,7 @@
     <category term="Karlblogs" scheme="https://karlbaey.top/categories/Karlblogs/"/>
     
     
-    <category term="Files" scheme="https://karlbaey.top/tags/Files/"/>
-    
-    <category term="Desktop" scheme="https://karlbaey.top/tags/Desktop/"/>
-    
-    <category term="Lanzou" scheme="https://karlbaey.top/tags/Lanzou/"/>
+    <category term="Nothing" scheme="https://karlbaey.top/tags/Nothing/"/>
     
   </entry>
   
@@ -301,7 +316,7 @@
     <link href="https://karlbaey.top/articles/Lieu-Evanoui/"/>
     <id>https://karlbaey.top/articles/Lieu-Evanoui/</id>
     <published>2025-02-15T13:08:19.000Z</published>
-    <updated>2025-03-23T08:33:50.042Z</updated>
+    <updated>2025-06-28T17:35:12.204Z</updated>
     
     
     <summary type="html">&lt;p&gt;他们回首望去，眼中满含泪水，//看到东方那乐园的大门紧闭，//火焰的剑在他们面前挥舞，//无情地阻挡了他们的归路。//他们只得转身，面对荒凉的世界，//步履沉重，心中充满无尽的悲伤。&lt;br&gt;
@@ -312,11 +327,7 @@
     <category term="Karlblogs" scheme="https://karlbaey.top/categories/Karlblogs/"/>
     
     
-    <category term="DailyLife" scheme="https://karlbaey.top/tags/DailyLife/"/>
-    
-    <category term="Past" scheme="https://karlbaey.top/tags/Past/"/>
-    
-    <category term="Sadness" scheme="https://karlbaey.top/tags/Sadness/"/>
+    <category term="Nothing" scheme="https://karlbaey.top/tags/Nothing/"/>
     
   </entry>
   

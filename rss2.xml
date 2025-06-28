@@ -15,8 +15,29 @@
     <atom:link href="https://karlbaey.top/rss2.xml" rel="self" type="application/rss+xml"/>
     
     <description></description>
-    <pubDate>Sun, 08 Jun 2025 08:40:53 GMT</pubDate>
+    <pubDate>Sat, 28 Jun 2025 17:34:40 GMT</pubDate>
     <generator>http://hexo.io/</generator>
+    
+    <item>
+      <title>Neko回忆录 Ⅰ</title>
+      <link>https://karlbaey.top/articles/dear-neko-i/</link>
+      <guid>https://karlbaey.top/articles/dear-neko-i/</guid>
+      <pubDate>Sat, 28 Jun 2025 17:29:45 GMT</pubDate>
+      
+      <description>&lt;p&gt;我的妻子，Neko 小姐，是一个长相非常可爱，个子很高，对我也很温柔的女孩子。&lt;/p&gt;</description>
+      
+      
+      
+      
+      <category domain="https://karlbaey.top/categories/Tales/">Tales</category>
+      
+      
+      <category domain="https://karlbaey.top/tags/Serial/">Serial</category>
+      
+      
+      <comments>https://karlbaey.top/articles/dear-neko-i/#disqus_thread</comments>
+      
+    </item>
     
     <item>
       <title>公告板</title>
@@ -179,11 +200,7 @@
       <category domain="https://karlbaey.top/categories/Karlblogs/">Karlblogs</category>
       
       
-      <category domain="https://karlbaey.top/tags/Files/">Files</category>
-      
-      <category domain="https://karlbaey.top/tags/Desktop/">Desktop</category>
-      
-      <category domain="https://karlbaey.top/tags/Lanzou/">Lanzou</category>
+      <category domain="https://karlbaey.top/tags/Nothing/">Nothing</category>
       
       
       <comments>https://karlbaey.top/articles/Compressed-files-notes/#disqus_thread</comments>
@@ -339,11 +356,7 @@
       <category domain="https://karlbaey.top/categories/Karlblogs/">Karlblogs</category>
       
       
-      <category domain="https://karlbaey.top/tags/DailyLife/">DailyLife</category>
-      
-      <category domain="https://karlbaey.top/tags/Past/">Past</category>
-      
-      <category domain="https://karlbaey.top/tags/Sadness/">Sadness</category>
+      <category domain="https://karlbaey.top/tags/Nothing/">Nothing</category>
       
       
       <comments>https://karlbaey.top/articles/Lieu-Evanoui/#disqus_thread</comments>
