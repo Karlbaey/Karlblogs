@@ -54,19 +54,19 @@
 <p>另外，我非常建议使用加速器和 VPN。因为 GitHub 在中国没有服务器，使用 VPN 能让你快速访问网站。</p>
 <h1>搭建环境</h1>
 <p><strong>务必按照顺序来安装！</strong></p>
-<h3 id="Ⅰ-下载-git"><a class="header-anchor" href="#Ⅰ-下载-git">¶</a>Ⅰ 下载 git</h3>
+<h3 id="Ⅰ-下载-git"><a class="header-anchor" href="#Ⅰ-下载-git"> </a>Ⅰ 下载 git</h3>
 <p>从 <a target="_blank" rel="noopener" href="https://git-scm.com/" title="快点我！">git 官网</a>下载对应的安装包：</p>
 <p><img src="/images/HexoblogAndYou/GitWebsite.png" alt="看红色的框框" title="GitWebsite"></p>
 <p>安装好后在桌面 右键 → Open Git Bash here输入 <code>git --version</code> 查看，这样显示就算安装成功了：</p>
 <p><img src="/images/HexoblogAndYou/GitVersion.png" alt="就像这样" title="GitVersion"></p>
 <p>打开你下载 git 的目录，右键 git-bash.exe 选择[属性]并如下选择：</p>
 <p><img src="/images/HexoblogAndYou/GitAdmin.png" alt="如果不这么做，后续上传会出问题！" title="GitAdmin"></p>
-<h3 id="Ⅱ-下载-Node-js"><a class="header-anchor" href="#Ⅱ-下载-Node-js">¶</a>Ⅱ 下载 Node.js</h3>
+<h3 id="Ⅱ-下载-Node-js"><a class="header-anchor" href="#Ⅱ-下载-Node-js"> </a>Ⅱ 下载 Node.js</h3>
 <p>从 <a target="_blank" rel="noopener" href="https://nodejs.org/en/download/" title="快点我！">Node.js</a> 官网下载对应的安装包：</p>
 <p><img src="/images/HexoblogAndYou/NodejsWebsite.png" alt="看红色箭头" title="NodejsWebsite"></p>
 <p>在 Git Bash 中输入 <code>node -v</code>，不报错即可。</p>
 <p>环境配置参考<a target="_blank" rel="noopener" href="https://cloud.tencent.com/developer/article/2037057" title="快点我！">这里</a>。</p>
-<h3 id="Ⅲ-安装-Hexo"><a class="header-anchor" href="#Ⅲ-安装-Hexo">¶</a>Ⅲ 安装 Hexo</h3>
+<h3 id="Ⅲ-安装-Hexo"><a class="header-anchor" href="#Ⅲ-安装-Hexo"> </a>Ⅲ 安装 Hexo</h3>
 <p>在 Git Bash 中输入 <s><code>npm config set registry https://registry.npm.taobao.org</code></s>（这一步换下载源，是为了后面下载不报错）。输入<code>npm install -g hexo</code>，等待完成后，输入<code>hexo -v</code>。</p>
 <p>更正：淘宝的镜像源已经修改为 <code>https://registry.npmmirror.com</code>，请参照本教程的朋友及时修正。</p>
 <p><img src="/images/HexoblogAndYou/HexoVersion.png" alt="这样显示就对了" title="HexoVersion"></p>
@@ -86,7 +86,7 @@
 git config --global user.email &quot;xxx@example.com&quot; #填写你的github注册邮箱
 </code></pre>
 <h1>搭建博客</h1>
-<h3 id="新建博客"><a class="header-anchor" href="#新建博客">¶</a>新建博客</h3>
+<h3 id="新建博客"><a class="header-anchor" href="#新建博客"> </a>新建博客</h3>
 <p>开始之前先介绍一下 Hexo 的基本命令</p>
 <pre><code>hexo new &quot;postName&quot; #新建文章
 hexo new page &quot;pageName&quot; #新建页面
@@ -122,7 +122,7 @@ hexo g &amp;&amp; hexo s<br>
 方法2）config.xml中的 highlight-&gt;enable的值从true更改为false，这样可以避免异常。</p>
 </blockquote>
 <p>访问没问题了，接下来部署到 GitHub。</p>
-<h3 id="部署到github"><a class="header-anchor" href="#部署到github">¶</a>部署到github</h3>
+<h3 id="部署到github"><a class="header-anchor" href="#部署到github"> </a>部署到github</h3>
 <p><strong>注意：</strong> 此处需要一个新仓库（Repository），仓库名称格式：<code>用户名.github.io</code>。比如卡尔白的就是：<a target="_blank" rel="noopener" href="http://karlbaey101.github.io">karlbaey101.github.io</a>。</p>
 <p><img src="/images/HexoblogAndYou/NewRepo.png" alt="" title="NewRepo"></p>
 <p><img src="/images/HexoblogAndYou/RepoName.png" alt="因为我已经注册过了，就不可以再注册一个" title="RepoName"></p>
@@ -136,7 +136,7 @@ hexo g &amp;&amp; hexo s<br>
 <blockquote>
 <p>这个博客地址已经是部署到了公网，感兴趣的读者也可以访问。</p>
 </blockquote>
-<h3 id="编写博客"><a class="header-anchor" href="#编写博客">¶</a>编写博客</h3>
+<h3 id="编写博客"><a class="header-anchor" href="#编写博客"> </a>编写博客</h3>
 <p>搭建好博客之后，日常中肯定是需要编写博客并且同步到 GitHub。卡尔白来带大家写一篇博客。</p>
 <p>新建一篇名为<code>Karl-first-blog</code>的博客：<code>hexo n &quot;Karl-first-blog&quot;</code></p>
 <p>查看对应的文件夹：</p>

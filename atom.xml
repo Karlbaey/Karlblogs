@@ -6,7 +6,7 @@
   <link href="https://karlbaey.top/atom.xml" rel="self"/>
   
   <link href="https://karlbaey.top/"/>
-  <updated>2025-06-28T17:34:40.365Z</updated>
+  <updated>2025-06-28T17:49:38.716Z</updated>
   <id>https://karlbaey.top/</id>
   
   <author>
@@ -21,7 +21,7 @@
     <link href="https://karlbaey.top/articles/dear-neko-i/"/>
     <id>https://karlbaey.top/articles/dear-neko-i/</id>
     <published>2025-06-28T17:29:45.000Z</published>
-    <updated>2025-06-28T17:34:40.365Z</updated>
+    <updated>2025-06-28T17:49:38.716Z</updated>
     
     
     <summary type="html">&lt;p&gt;我的妻子，Neko 小姐，是一个长相非常可爱，个子很高，对我也很温柔的女孩子。&lt;/p&gt;</summary>
@@ -70,7 +70,7 @@
     
     
     <summary type="html">&lt;!--这是一行注释--&gt;
-&lt;h3 id=&quot;序&quot;&gt;&lt;a class=&quot;header-anchor&quot; href=&quot;#序&quot;&gt;¶&lt;/a&gt;序&lt;/h3&gt;
+&lt;h3 id=&quot;序&quot;&gt;&lt;a class=&quot;header-anchor&quot; href=&quot;#序&quot;&gt; &lt;/a&gt;序&lt;/h3&gt;
 &lt;p&gt;己巳孟夏，以不可言之志，尝撰此文，乃一无谓之举，不胜一览。有卿语人曰：“其一丧家犬，其有作文亦如犬狺然狂吠耳。”白怫然，终无可奈何，独觉此卿“狺然”、“狂”言之过矣，余皆无误。既叹然，不可不藉尺卷寸管，以抒其不可言之志。篇中有论世，有叹惋，有嬉笑，有怒骂，为赋一文强说愁也。且聆之犬吠如。能解吾意，亦非一不幸事。&lt;/p&gt;</summary>
     
     
@@ -91,7 +91,7 @@
     
     
     <summary type="html">&lt;!--这是一行注释--&gt;
-&lt;h2 id=&quot;……&quot;&gt;&lt;a class=&quot;header-anchor&quot; href=&quot;#……&quot;&gt;¶&lt;/a&gt;……&lt;/h2&gt;
+&lt;h2 id=&quot;……&quot;&gt;&lt;a class=&quot;header-anchor&quot; href=&quot;#……&quot;&gt; &lt;/a&gt;……&lt;/h2&gt;
 &lt;p&gt;我也不知道为什么要写这个，可能是因为我再也没有力气维护一段注定破裂的关系了。&lt;/p&gt;</summary>
     
     
