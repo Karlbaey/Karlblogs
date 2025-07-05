@@ -6,7 +6,7 @@
   <link href="https://karlbaey.top/atom.xml" rel="self"/>
   
   <link href="https://karlbaey.top/"/>
-  <updated>2025-06-28T18:14:01.810Z</updated>
+  <updated>2025-07-05T08:26:48.141Z</updated>
   <id>https://karlbaey.top/</id>
   
   <author>
@@ -17,11 +17,31 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>晚安，卡尔白</title>
+    <link href="https://karlbaey.top/articles/good-night-miss-karlbaey/"/>
+    <id>https://karlbaey.top/articles/good-night-miss-karlbaey/</id>
+    <published>2025-07-05T08:19:47.000Z</published>
+    <updated>2025-07-05T08:26:48.141Z</updated>
+    
+    
+    <summary type="html">&lt;h2 id=&quot;Leading&quot;&gt;&lt;a class=&quot;header-anchor&quot; href=&quot;#Leading&quot;&gt; &lt;/a&gt;Leading&lt;/h2&gt;
+&lt;p&gt;我出生在二零零九年六月二十六日。很难想象，仅仅是过了十六年，我就从一个胚胎变成了今天坐在显示器前，给自己埋怨一切的手稿做校对的&lt;span style=&quot;background-color:lightgray&quot;&gt;人&lt;/span&gt;&lt;sup&gt;&lt;span style=&quot;color:blue&quot;&gt;[来源请求]&lt;/span&gt;&lt;/sup&gt;。想当年我还是个个子才过一米二的小屁孩，就会每天翻着日历，期待每年生日来到的那一天。但是现在，我很讨厌过生日，不为什么，就是讨厌。我家里过的是阴历年生日，在两个星期还是三个星期前，因为星期一到五我会被禁锢在高中里，虑不得脱，于是家里人就在那之前的一个星期六，买了个不大不小，圆圆的蛋糕——毕竟我对邀请其他人没兴趣，大了也是浪费。我没有仔细看那蛋糕，因为我讨厌吃甜的。机械地配合着拍了张照，以示今年是有过生日的，而不是被埋在了垃圾堆里。我更期待后者。虽然第二天是星期五，发了条 QQ 空间宣告这事，但我的心里始终是抱着“哎呀过都过了这也不算什么记录生日吧”的心态。&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="Tales" scheme="https://karlbaey.top/categories/Tales/"/>
+    
+    
+    <category term="原创" scheme="https://karlbaey.top/tags/%E5%8E%9F%E5%88%9B/"/>
+    
+  </entry>
+  
+  <entry>
     <title>Neko回忆录 Ⅰ</title>
     <link href="https://karlbaey.top/articles/dear-neko-i/"/>
     <id>https://karlbaey.top/articles/dear-neko-i/</id>
     <published>2025-06-28T17:29:45.000Z</published>
-    <updated>2025-06-28T18:14:01.810Z</updated>
+    <updated>2025-07-05T08:28:33.400Z</updated>
     
     
     <summary type="html">&lt;p&gt;我的妻子，Neko 小姐，是一个长相非常可爱，个子很高，对我也很温柔的女孩子。&lt;/p&gt;</summary>
@@ -31,7 +51,7 @@
     <category term="Tales" scheme="https://karlbaey.top/categories/Tales/"/>
     
     
-    <category term="Serial" scheme="https://karlbaey.top/tags/Serial/"/>
+    <category term="连载" scheme="https://karlbaey.top/tags/%E8%BF%9E%E8%BD%BD/"/>
     
   </entry>
   
@@ -66,7 +86,7 @@
     <link href="https://karlbaey.top/articles/nothing-dawn/"/>
     <id>https://karlbaey.top/articles/nothing-dawn/</id>
     <published>2025-05-31T18:51:54.000Z</published>
-    <updated>2025-05-31T19:10:13.081Z</updated>
+    <updated>2025-07-05T08:28:05.751Z</updated>
     
     
     <summary type="html">&lt;!--这是一行注释--&gt;
@@ -78,7 +98,7 @@
     <category term="Tales" scheme="https://karlbaey.top/categories/Tales/"/>
     
     
-    <category term="Nothing" scheme="https://karlbaey.top/tags/Nothing/"/>
+    <category term="原创" scheme="https://karlbaey.top/tags/%E5%8E%9F%E5%88%9B/"/>
     
   </entry>
   
@@ -370,11 +390,11 @@
   </entry>
   
   <entry>
-    <title>十年边缘//The Edge of a Decade</title>
+    <title>十年边缘</title>
     <link href="https://karlbaey.top/articles/the-edge-of-a-decade/"/>
     <id>https://karlbaey.top/articles/the-edge-of-a-decade/</id>
     <published>2025-02-09T07:37:06.000Z</published>
-    <updated>2025-06-28T12:09:14.219Z</updated>
+    <updated>2025-07-05T08:28:24.064Z</updated>
     
     
     <summary type="html">自己的一些往事，文学美化色彩很浓。</summary>
@@ -384,7 +404,7 @@
     <category term="Tales" scheme="https://karlbaey.top/categories/Tales/"/>
     
     
-    <category term="Original" scheme="https://karlbaey.top/tags/Original/"/>
+    <category term="原创" scheme="https://karlbaey.top/tags/%E5%8E%9F%E5%88%9B/"/>
     
   </entry>
   
@@ -404,25 +424,6 @@
     
     
     <category term="Nothing" scheme="https://karlbaey.top/tags/Nothing/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>第一篇博客</title>
-    <link href="https://karlbaey.top/articles/my-first-blog/"/>
-    <id>https://karlbaey.top/articles/my-first-blog/</id>
-    <published>2025-02-08T09:40:24.000Z</published>
-    <updated>2025-06-28T12:08:22.572Z</updated>
-    
-    
-    <summary type="html">&lt;p&gt;不知道花了多少时间，终于把我的 GitHub 个人博客搭好了。&lt;/p&gt;</summary>
-    
-    
-    
-    <category term="Karlblogs" scheme="https://karlbaey.top/categories/Karlblogs/"/>
-    
-    
-    <category term="Milestone" scheme="https://karlbaey.top/tags/Milestone/"/>
     
   </entry>
   
